@@ -8,7 +8,8 @@
     "build:llms": "tsx scripts/buildLlms.ts",
     "build": "npm run build:projects && cp generated/projects.json public/projects.json && npm run build:llms && BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ) next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:pr": "tsx scripts/validateProjectsInPR.ts"
   },
   "dependencies": {
     "lucide-react": "^1.16.0",

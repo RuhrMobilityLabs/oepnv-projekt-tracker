@@ -1,0 +1,33 @@
+name: Validate Projects in PR
+
+on:
+  pull_request:
+    paths:
+      - 'projects/**/*.json'
+      - '.github/workflows/validate-projects.yml'
+
+jobs:
+  validate-projects:
+    name: Validate Project Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate projects in PR
+        run: npm run validate:pr
+        env:
+          GITHUB_BASE_REF: ${{ github.base_ref }}
+          GITHUB_HEAD_REF: ${{ github.head_ref }}

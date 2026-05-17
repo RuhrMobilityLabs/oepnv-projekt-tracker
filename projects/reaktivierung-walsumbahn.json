@@ -1,64 +1,63 @@
 {
   "id": "reaktivierung-walsumbahn",
   "name": "Reaktivierung Walsumbahn",
-
   "projectType": "reaktivierung",
-
   "transportTypes": [
     "eisenbahn"
   ],
-
   "cities": [
+    "Wesel",
+    "Voerde",
+    "Dinslaken",
     "Duisburg",
-    "Oberhausen",
-    "Dinslaken"
+    "Oberhausen"
   ],
-
   "states": [
     "nordrhein-westfalen"
   ],
-
   "operators": [
     "VRR",
     "DB InfraGO"
   ],
-
-  "description": "Reaktivierung der ehemaligen Walsumbahn für den Personenverkehr im Ruhrgebiet. Ziel ist eine bessere Anbindung zwischen Duisburg, Oberhausen und Dinslaken.",
-
+  "description": "Reaktivierung der ehemaligen Walsumbahn für den Personenverkehr zwischen Wesel, Voerde, Duisburg und Oberhausen. Die Strecke ist im NRW-Zielnetz 2032 vorgesehen und gilt als wichtiger Baustein für eine bessere SPNV-Anbindung im Ruhrgebiet.",
   "statusHistory": [
     {
       "status": "idee",
       "date": "2015-04-10",
-      "note": "Erste Diskussionen über Reaktivierung im regionalen Kontext"
+      "note": "Erste Diskussionen über eine Reaktivierung der Eisenbahnstrecke von Wesel über Walsum nach Oberhausen."
     },
     {
       "status": "antrag",
-      "date": "2018-09-22",
-      "note": "Prüfung einer möglichen Reaktivierung durch den VRR"
+      "date": "2021-12-08",
+      "note": "VRR und beteiligte Kommunen legen die Machbarkeitsstudie vor; die grundsätzliche Wirtschaftlichkeit wird bestätigt.",
+      "sourceUrl": "https://www.vrr.de/aktuelles/newsroom/machbarkeitsstudie-zur-walsumbahn/"
     },
     {
       "status": "geplant",
-      "date": "2023-11-02",
-      "note": "Machbarkeitsstudie zeigt grundsätzlich positive Bewertung"
+      "date": "2023-03-22",
+      "note": "Der VRR beschließt die weiterführende Planung der Betriebsvariante; eine Inbetriebnahme könnte Anfang der 2030er Jahre realisiert werden.",
+      "sourceUrl": "https://www.vrr.de/aktuelles/newsroom/walsumbahn-reaktivierung-des-personenverkehrs/"
     }
   ],
-
   "sources": [
     {
-      "title": "VRR Machbarkeitsstudie Schienenreaktivierungen",
-      "url": "https://example.com/vrr-walsumbahn-studie.pdf",
-      "date": "2023-11-02"
+      "title": "VRR: Walsumbahn - Reaktivierung des Personenverkehrs",
+      "url": "https://www.vrr.de/aktuelles/newsroom/walsumbahn-reaktivierung-des-personenverkehrs/",
+      "date": "2023-03-22"
     },
     {
-      "title": "Wikipedia: Walsumbahn",
-      "url": "https://de.wikipedia.org/wiki/Walsumbahn"
+      "title": "VRR: Machbarkeitsstudie zur Walsumbahn",
+      "url": "https://www.vrr.de/aktuelles/newsroom/machbarkeitsstudie-zur-walsumbahn/",
+      "date": "2021-12-08"
+    },
+    {
+      "title": "KCITF NRW: Netzgrafik NRW 2032, 2. Gutachterentwurf",
+      "url": "https://www.kcitf-nrw.de/fileadmin/03_KC_Seiten/KCITF/Service/Netzgrafik_NRW_2032_2._Gutachterentwurf.pdf"
     }
   ],
-
   "coordinates": {
-    "lat": 51.4556,
-    "lng": 6.7611
+    "lat": 51.5446,
+    "lng": 6.7053
   },
-
-  "lastUpdated": "2026-05-16"
+  "lastUpdated": "2026-05-17"
 }

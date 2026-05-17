@@ -27,6 +27,7 @@ const StatusEntry = z.object({
   status: z.enum([...PROJECT_STATUSES] as [string, ...string[]]),
   date: z.string(),
   note: z.string().optional(),
+  sourceUrl: z.string().url().optional(),
 });
 
 const Source = z.object({

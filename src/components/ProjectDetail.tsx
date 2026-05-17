@@ -107,6 +107,11 @@ export default function ProjectDetail({ project }: { project: Project }) {
                           <span className="text-xs font-medium uppercase tracking-[0.18em] text-muted">{formatLocalDate(statusEntry.date)}</span>
                         </div>
                         {statusEntry.note && <p className="mt-1 text-sm leading-5 text-muted">{statusEntry.note}</p>}
+                        {statusEntry.sourceUrl && (
+                          <a href={statusEntry.sourceUrl} target="_blank" rel="noreferrer" className="mt-2 inline-block text-xs font-medium text-primary transition hover:underline">
+                            Quelle
+                          </a>
+                        )}
                       </li>
                   );
                 })}

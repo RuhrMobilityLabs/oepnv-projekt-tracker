@@ -59,24 +59,15 @@ Pflichtfelder:
 
 - `id` (String)
 - `name` (String)
-- `projectType` (Enum)
-    - `neubau`
-    - `reaktivierung`
+- `projectType` (Enum: `neubau`, `reaktivierung`)
 - `transportTypes` (Array von Enum-Werten)
-    - `eisenbahn`
-    - `stadtbahn`
-    - `maglev`
-    - `bus`
-    - `oberleitungsbus`
-    - `seilbahn`
-    - `faehre`
+    - Liste von `eisenbahn`, `stadtbahn`, `maglev`, `bus`, `oberleitungsbus`, `seilbahn`, `faehre`
 - `cities` (String-Array)
 - `statusHistory` (Array von Objekten mit `status` und `date`)
-    - `idee`
-    - `antrag`
-    - `geplant`
-    - `im_bau`
-    - `fertiggestellt`
+    - status (Enum): `idee`, `antrag`, `geplant`, `im_bau`, `fertiggestellt`
+    - date: Datum im ISO format (z.B. 2026-12-31)
+    - note: Optionaler Hinweistext
+    - sourceUrl: Optionaler Link zur Quelle
 - `sources` (Array von Objekten mit `title` und `url`)
 
 Optionale Felder:

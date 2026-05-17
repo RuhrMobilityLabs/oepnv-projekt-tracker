@@ -1,0 +1,64 @@
+{
+  "id": "reaktivierung-walsumbahn",
+  "name": "Reaktivierung Walsumbahn",
+
+  "projectType": "reaktivierung",
+
+  "transportTypes": [
+    "eisenbahn"
+  ],
+
+  "cities": [
+    "Duisburg",
+    "Oberhausen",
+    "Dinslaken"
+  ],
+
+  "states": [
+    "nordrhein-westfalen"
+  ],
+
+  "operators": [
+    "VRR",
+    "DB InfraGO"
+  ],
+
+  "description": "Reaktivierung der ehemaligen Walsumbahn für den Personenverkehr im Ruhrgebiet. Ziel ist eine bessere Anbindung zwischen Duisburg, Oberhausen und Dinslaken.",
+
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2015-04-10",
+      "note": "Erste Diskussionen über Reaktivierung im regionalen Kontext"
+    },
+    {
+      "status": "antrag",
+      "date": "2018-09-22",
+      "note": "Prüfung einer möglichen Reaktivierung durch den VRR"
+    },
+    {
+      "status": "geplant",
+      "date": "2023-11-02",
+      "note": "Machbarkeitsstudie zeigt grundsätzlich positive Bewertung"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "VRR Machbarkeitsstudie Schienenreaktivierungen",
+      "url": "https://example.com/vrr-walsumbahn-studie.pdf",
+      "date": "2023-11-02"
+    },
+    {
+      "title": "Wikipedia: Walsumbahn",
+      "url": "https://de.wikipedia.org/wiki/Walsumbahn"
+    }
+  ],
+
+  "coordinates": {
+    "lat": 51.4556,
+    "lng": 6.7611
+  },
+
+  "lastUpdated": "2026-05-16"
+}

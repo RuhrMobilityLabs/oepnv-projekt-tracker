@@ -1,0 +1,21 @@
+{
+  "id": "reaktivierung-muenster-bus",
+  "name": "Reaktivierung Buslinie Münster",
+  "projectType": "reaktivierung",
+  "transportTypes": ["bus"],
+  "cities": ["Münster"],
+  "states": ["nrw"],
+  "operators": ["STM"],
+  "description": "Wiederaufnahme einer früheren Busverbindung zur besseren innerstädtischen Vernetzung.",
+  "statusHistory": [
+    { "status": "idee", "date": "2010-06-01" },
+    { "status": "antrag", "date": "2012-09-12" },
+    { "status": "geplant", "date": "2013-05-20" },
+    { "status": "fertiggestellt", "date": "2014-11-30", "note": "Strecke in Betrieb genommen" }
+  ],
+  "sources": [
+    { "title": "Lokale Presse Münster", "url": "https://example.com/muenster-bus" }
+  ],
+  "coordinates": { "lat": 51.9607, "lng": 7.6261 },
+  "lastUpdated": "2014-12-01"
+}

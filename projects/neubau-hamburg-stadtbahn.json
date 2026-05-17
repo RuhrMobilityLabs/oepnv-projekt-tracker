@@ -1,0 +1,19 @@
+{
+  "id": "neubau-hamburg-stadtbahn",
+  "name": "Neubau Stadtbahn Hamburg",
+  "projectType": "neubau",
+  "transportTypes": ["stadtbahn"],
+  "cities": ["Hamburg"],
+  "states": ["hamburg"],
+  "operators": ["HVV"],
+  "description": "Erweiterung des Stadtbahnnetzes in Hamburg mit neuen Streckenabschnitten.",
+  "statusHistory": [
+    { "status": "antrag", "date": "2025-03-10", "note": "Förderantrag gestellt" },
+    { "status": "im_bau", "date": "2026-02-01", "note": "Bauphase begonnen" }
+  ],
+  "sources": [
+    { "title": "HVV Ausbauplan", "url": "https://example.com/hvv-ausbau" }
+  ],
+  "coordinates": { "lat": 53.5511, "lng": 9.9937 },
+  "lastUpdated": "2026-02-01"
+}

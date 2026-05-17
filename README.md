@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ÖPNV Projekt Tracker
 
-## Getting Started
+Der ÖPNV Projekt Tracker ist eine Next.js-Anwendung zur strukturierten Erfassung und Darstellung von ÖPNV-Projekten (z. B. Neubau oder Reaktivierung) inklusive Statushistorie und Quellen.
 
-First, run the development server:
+## Ziele
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Einheitliches Datenmodell für ÖPNV-Projekte
+- Nachvollziehbare Statusentwicklung über die Zeit
+- Transparente Quellenangaben pro Eintrag
+- Statisch generierte Detailseiten für stabile Auslieferung
+
+## Neues ÖPNV-Projekt beitragen
+
+### 1. Neue Projektdatei anlegen
+
+Lege in `projects/` eine neue JSON-Datei an, z. B.:
+
+```text
+projects/neubau-leipzig-stadtbahn.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Empfehlung für Dateiname und ID:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+<projektart>-<stadt>-<verkehrsmittel>
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Die `id` im JSON sollte mit dem Dateinamen (ohne `.json`) übereinstimmen.
 
-## Learn More
+### 2. Felder nach Schema ausfüllen
 
-To learn more about Next.js, take a look at the following resources:
+Minimalbeispiel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```json
+{
+	"id": "neubau-leipzig-stadtbahn",
+	"name": "Neubau Stadtbahn Leipzig Nord",
+	"projectType": "neubau",
+	"transportTypes": ["stadtbahn"],
+	"cities": ["Leipzig"],
+	"statusHistory": [
+		{
+			"status": "idee",
+			"date": "2026-05-17",
+			"note": "Projekt erstmals im Verkehrsausschuss vorgestellt"
+		}
+	],
+	"sources": [
+		{
+			"title": "Stadtrat Leipzig Vorlage 2026/123",
+			"url": "https://example.org/vorlage-2026-123"
+		}
+	],
+	"lastUpdated": "2026-05-17"
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pflichtfelder:
 
-## Deploy on Vercel
+- `id` (String)
+- `name` (String)
+- `projectType` (Enum)
+    - `neubau`
+    - `reaktivierung`
+- `transportTypes` (Array von Enum-Werten)
+    - `eisenbahn`
+    - `stadtbahn`
+    - `maglev`
+    - `bus`
+    - `oberleitungsbus`
+    - `seilbahn`
+    - `faehre`
+- `cities` (String-Array)
+- `statusHistory` (Array von Objekten mit `status` und `date`)
+    - `idee`
+    - `antrag`
+    - `geplant`
+    - `im_bau`
+    - `fertiggestellt`
+- `sources` (Array von Objekten mit `title` und `url`)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Optionale Felder:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `states` (String-Array)
+- `operators` (String-Array)
+- `description` (String)
+- `coordinates` (`lat`, `lng` als Zahlen)
+- `lastUpdated` (Datum als String)
+
+### 3. Pull Request erstellen
+
+- Commit mit neuer/aktualisierter Projektdatei
+- Pull Request mit kurzer fachlicher Begründung und Quellenhinweis
+
+## Voraussetzungen
+
+- Node.js 20+
+- npm 10+
+
+## Projekt lokal starten
+
+1. Abhängigkeiten installieren:
+
+    ```bash
+    npm install
+    ```
+
+2. Entwicklungsserver starten:
+
+    ```bash
+    npm run dev
+    ```
+
+3. Anwendung im Browser öffnen:
+
+    ```text
+    http://localhost:3000
+    ```
+
+## Build & Deployment
+
+```bash
+npm run build
+```

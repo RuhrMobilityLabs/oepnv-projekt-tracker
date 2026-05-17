@@ -1,0 +1,20 @@
+{
+  "id": "neubau-frankfurt-seilbahn",
+  "name": "Seilbahn & Stadtbahn Frankfurt Neubau",
+  "projectType": "neubau",
+  "transportTypes": ["seilbahn","stadtbahn"],
+  "cities": ["Frankfurt am Main"],
+  "states": ["hessen"],
+  "operators": ["RMV"],
+  "description": "Kombiniertes Projekt mit Seilbahnüberquerung und Anbindung an die Stadtbahn.",
+  "statusHistory": [
+    { "status": "idee", "date": "2022-02-10" },
+    { "status": "antrag", "date": "2023-07-05" },
+    { "status": "im_bau", "date": "2025-09-01" }
+  ],
+  "sources": [
+    { "title": "RMV Projektbeschreibung", "url": "https://example.com/rmv-seilbahn" }
+  ],
+  "coordinates": { "lat": 50.1109, "lng": 8.6821 },
+  "lastUpdated": "2025-09-01"
+}

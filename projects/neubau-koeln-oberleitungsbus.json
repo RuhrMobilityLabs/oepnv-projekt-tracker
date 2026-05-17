@@ -1,0 +1,18 @@
+{
+  "id": "neubau-koeln-oberleitungsbus",
+  "name": "Oberleitungsbus Köln Neubau",
+  "projectType": "neubau",
+  "transportTypes": ["oberleitungsbus"],
+  "cities": ["Köln"],
+  "states": ["nrw"],
+  "operators": ["KVB"],
+  "description": "Umweltfreundlicher Oberleitungsbus für innerstädtische Relationen.",
+  "statusHistory": [
+    { "status": "antrag", "date": "2025-06-30", "note": "Antrag bei der Stadt eingereicht" }
+  ],
+  "sources": [
+    { "title": "KVB Pressemitteilung", "url": "https://example.com/kvb-oberleitungsbus" }
+  ],
+  "coordinates": { "lat": 50.9375, "lng": 6.9603 },
+  "lastUpdated": "2025-06-30"
+}

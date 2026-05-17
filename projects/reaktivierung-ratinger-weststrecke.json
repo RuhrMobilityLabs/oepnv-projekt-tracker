@@ -1,0 +1,55 @@
+{
+  "id": "reaktivierung-ratinger-weststrecke",
+  "name": "Reaktivierung Ratinger Weststrecke",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Duisburg",
+    "Düsseldorf",
+    "Ratingen"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "VRR",
+    "DB InfraGO"
+  ],
+  "description": "Reaktivierung der Ratinger Weststrecke zwischen Duisburg und Düsseldorf für den SPNV. Die derzeit ausschließlich für Güterverkehr genutzte Strecke soll mit neuen Stationen für eine bessere Schienenbindung von Ratingen, Lintorf und des Neubaugebiets 6-Seen-Wedau dienen. Die Strecke ist im NRW-Zielnetz 2032 vorgesehen.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2015-01-01",
+      "note": "Frühzeitige Bestrebungen zur Reaktivierung der Ratinger Weststrecke für den SPNV."
+    },
+    {
+      "status": "antrag",
+      "date": "2019-09-24",
+      "note": "VRR und beteiligte Kommunen präsentieren Machbarkeitsstudie mit positivem Ergebnis; das Projekt wird als baulich machbar und finanzierbar bewertet.",
+      "sourceUrl": "https://www.vrr-investitionsprojekte.de/infrastruktur/spnv/ratinger-weststrecke/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "VRR: Reaktivierung der Ratinger Weststrecke",
+      "url": "https://www.vrr-investitionsprojekte.de/infrastruktur/spnv/ratinger-weststrecke/",
+      "date": "2019-09-24"
+    },
+    {
+      "title": "WAZ: Walsumbahn und Ratinger Weststrecke – Aktuelle Kostenentwicklung und Planungsstand",
+      "url": "https://www.waz.de/lokales/duisburg/article411510220/walsumbahn-und-ratinger-weststrecke-zerschiesst-ein-eu-urteil-jetzt-alle-plaene.html",
+      "date": "2026-03-22"
+    },
+    {
+      "title": "KCITF NRW: Netzgrafik NRW 2032, 2. Gutachterentwurf",
+      "url": "https://www.kcitf-nrw.de/fileadmin/03_KC_Seiten/KCITF/Service/Netzgrafik_NRW_2032_2._Gutachterentwurf.pdf"
+    }
+  ],
+  "coordinates": {
+    "lat": 51.4356,
+    "lng": 6.8814
+  },
+  "lastUpdated": "2026-05-17"
+}

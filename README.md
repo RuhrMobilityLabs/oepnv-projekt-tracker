@@ -51,6 +51,16 @@ Minimalbeispiel:
 			"url": "https://example.org/vorlage-2026-123"
 		}
 	],
+	"stations": [
+		{
+			"name": "Leipzig Nord",
+			"coordinates": {
+				"lat": 51.3667,
+				"lng": 12.3833
+			},
+			"status": "existing"
+		}
+	],
 	"lastUpdated": "2026-05-17"
 }
 ```
@@ -75,6 +85,10 @@ Optionale Felder:
 - `states` (String-Array)
 - `operators` (String-Array)
 - `description` (String)
+- `stations` (Array von Objekten mit `name`, `coordinates` und `status`)
+	- `name` (String)
+	- `coordinates` (`lat`, `lng` als Zahlen)
+	- `status` (Enum: `existing`, `planned`)
 - `coordinates` (`lat`, `lng` als Zahlen)
 - `lastUpdated` (Datum als String)
 

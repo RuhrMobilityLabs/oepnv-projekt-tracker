@@ -23,6 +23,11 @@ export const PROJECT_STATUSES = [
   "fertiggestellt",
 ] as const;
 
+export const STATION_STATUSES = [
+  "existing",
+  "planned",
+] as const;
+
 const StatusEntry = z.object({
   status: z.enum([...PROJECT_STATUSES] as [string, ...string[]]),
   date: z.string(),
@@ -41,6 +46,12 @@ const Coordinates = z.object({
   lng: z.number(),
 });
 
+const Station = z.object({
+  name: z.string(),
+  coordinates: Coordinates,
+  status: z.enum([...STATION_STATUSES] as [string, ...string[]]),
+});
+
 export const projectSchema = z.object({
   id: z.string(),
   name: z.string(),
@@ -52,6 +63,7 @@ export const projectSchema = z.object({
   description: z.string().optional(),
   statusHistory: z.array(StatusEntry),
   sources: z.array(Source),
+  stations: z.array(Station).optional(),
   coordinates: Coordinates.optional(),
   lastUpdated: z.string().optional(),
 });
@@ -64,9 +76,11 @@ export type ProjectSchema = Project;
 export type ProjectType = (typeof PROJECT_TYPES)[number];
 export type TransportType = (typeof TRANSPORT_TYPES)[number];
 export type ProjectStatus = (typeof PROJECT_STATUSES)[number];
+export type StationStatus = (typeof STATION_STATUSES)[number];
 
 export type StatusEntry = z.infer<typeof StatusEntry>;
 export type Source = z.infer<typeof Source>;
 export type Coordinates = z.infer<typeof Coordinates>;
+export type Station = z.infer<typeof Station>;
 
 export default projectSchema;

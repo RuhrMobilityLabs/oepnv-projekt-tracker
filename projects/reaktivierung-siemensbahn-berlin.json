@@ -1,0 +1,99 @@
+{
+  "id": "reaktivierung-siemensbahn-berlin",
+  "name": "Reaktivierung Siemensbahn Berlin",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Berlin"
+  ],
+  "states": [
+    "berlin"
+  ],
+  "operators": [
+    "S-Bahn Berlin GmbH",
+    "Deutsche Bahn"
+  ],
+  "description": "Reaktivierung der historischen Siemensbahn-Strecke im nordwestlichen S-Bahn-Ring Berlins. Die 4,5 km lange Strecke führt von Jungfernheide nach Gartenfeld und wurde 1980 stillgelegt. Mit der Reaktivierung erhält das neue Stadtquartier Siemensstadt Square eine direkte Anbindung an die Ringbahn mit schnellen Anschlüssen zum Hauptbahnhof und zum Flughafen BER. Geplante neue S6-Linie im 10-Minuten-Takt. Kosten: ca. 880 Millionen Euro (Stand 2024). Die bestehende Trasse wird mit maximaler Geschwindigkeit 60 km/h reaktiviert, Neubaustrecken bis 80 km/h.",
+  "statusHistory": [
+    {
+      "status": "geplant",
+      "date": "2023",
+      "note": "Finanzierung der Planungsphase gesichert"
+    },
+    {
+      "status": "im_bau",
+      "date": "2024-04-28",
+      "note": "Bauarbeiten in den Abschnitten 1.2 und 1.3 haben begonnen",
+      "sourceUrl": "https://siemensbahn.deutschebahn.com/news-reader/grosses-interesse-an-anwohnerinformationsveranstaltung.html"
+    },
+    {
+      "status": "im_bau",
+      "date": "2026-01-21",
+      "note": "Eisenbahn-Bundesamt genehmigt Herstellung von Ersatzlebensräumen für Zauneidechsen und Nistkästen",
+      "sourceUrl": "https://www.nd-aktuell.de/artikel/1197216.oeffentlicher-nahverkehr-s-bahn-in-berlin-inbetriebnahme-der-siemensbahn-wird-konkreter.html"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Siemensbahn-Reaktivierung - Bauprojekte Deutsche Bahn",
+      "url": "https://bauprojekte.deutschebahn.com/p/siemensbahn-reaktivierung"
+    },
+    {
+      "title": "Siemensbahn - i2030 Projekt",
+      "url": "https://www.i2030.de/siemensbahn/",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Informationsveranstaltung Siemensbahn Projektabschnitt 1.2 und 1.3",
+      "url": "https://www.i2030.de/27-april-2026-einladung-zur-informationsveranstaltung-siemensbahn-projektabschnitt-1-2-und-1-3/",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Wiederbelebung der Siemensbahn: Arbeitsgemeinschaft realisiert wichtigen Schritt",
+      "url": "https://www.i2030.de/wiederbelebung-der-siemensbahn-arbeitsgemeinschaft-realisiert-wichtigen-schritt/",
+      "date": "2026-01-15"
+    },
+    {
+      "title": "Siemensbahn Berlin - Offizielle Projektwebseite",
+      "url": "https://siemensbahn.deutschebahn.com/home.html"
+    },
+    {
+      "title": "S-Bahn in Berlin: Inbetriebnahme der Siemensbahn wird konkreter",
+      "url": "https://www.nd-aktuell.de/artikel/1197216.oeffentlicher-nahverkehr-s-bahn-in-berlin-inbetriebnahme-der-siemensbahn-wird-konkreter.html",
+      "date": "2026-02-05"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Gartenfeld",
+      "coordinates": {
+        "lat": 52.5470199,
+        "lng": 13.2485476
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Siemensstadt",
+      "coordinates": {
+        "lat": 52.5393178,
+        "lng": 13.2633049
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Wernerwerk",
+      "coordinates": {
+        "lat": 52.5346449,
+        "lng": 13.2712349
+      },
+      "status": "planned"
+    }
+  ],
+  "coordinates": {
+    "lat": 52.5393178,
+    "lng": 13.2633049
+  },
+  "lastUpdated": "2026-05-18"
+}

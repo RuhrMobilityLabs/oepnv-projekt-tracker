@@ -2,7 +2,12 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { execSync } from "child_process";
-import { projectSchema } from "../src/lib/schemas/projectSchema";
+import { 
+  projectSchema,
+  PROJECT_TYPES,
+  TRANSPORT_TYPES,
+} from "../src/lib/schemas/projectSchema";
+import { ZodError } from "zod";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -11,6 +16,94 @@ interface ValidationResult {
   file: string;
   valid: boolean;
   error?: string;
+  zodError?: ZodError;
+  parsedData?: Record<string, unknown>;
+}
+
+interface FormattedError {
+  path: string;
+  message: string;
+}
+
+function getValueAtPath(obj: unknown, path: (string | number)[]): unknown {
+  let current = obj;
+  for (const key of path) {
+    if (typeof current === "object" && current !== null) {
+      current = (current as Record<string, unknown>)[key];
+    } else {
+      return undefined;
+    }
+  }
+  return current;
+}
+
+function formatZodErrors(
+  filePath: string,
+  zodError: ZodError,
+  parsedData?: Record<string, unknown>
+): string {
+  const formattedErrors: FormattedError[] = [];
+
+  // Map of field paths to their valid options
+  const validOptionsMap: Record<string, string[]> = {
+    projectType: PROJECT_TYPES as unknown as string[],
+    transportTypes: TRANSPORT_TYPES as unknown as string[],
+  };
+
+  for (const issue of zodError.issues) {
+    const pathStr = issue.path.join(".");
+    let message = "";
+
+    if (issue.code === "invalid_value" && issue.message.includes("Invalid option")) {
+      // Extract received value from parsed data
+      let received: unknown = undefined;
+      if (parsedData && issue.path.length > 0) {
+        received = getValueAtPath(parsedData, issue.path);
+      }
+
+      // Determine valid options based on the path
+      let validOptions: string[] = [];
+      const firstPathSegment = issue.path[0];
+      
+      if (firstPathSegment === "projectType") {
+        validOptions = validOptionsMap.projectType;
+      } else if (firstPathSegment === "transportTypes") {
+        validOptions = validOptionsMap.transportTypes;
+      } else {
+        // Try to parse from message as fallback
+        const match = issue.message.match(/expected one of (.+)/);
+        if (match) {
+          validOptions = match[1].split("|").map((opt) => opt.trim().replace(/"/g, ""));
+        }
+      }
+
+      if (received !== undefined) {
+        message = `Received an invalid option "${received}". Valid options are ${validOptions.map((opt: string) => `"${opt}"`).join("|")}.`;
+      } else {
+        message = issue.message;
+      }
+    } else if (issue.code === "invalid_type") {
+      if (issue.expected === "array") {
+        message = `Field is missing or not an array. Received: ${JSON.stringify(getValueAtPath(parsedData, issue.path)) || "nothing"}`;
+      } else {
+        message = issue.message;
+      }
+    } else {
+      message = issue.message;
+    }
+
+    formattedErrors.push({
+      path: pathStr,
+      message,
+    });
+  }
+
+  let output = `The following errors were found while validating "${filePath}". Please fix them!\n`;
+  for (const error of formattedErrors) {
+    output += `- ${error.path}: ${error.message}\n`;
+  }
+
+  return output;
 }
 
 async function getChangedFiles(): Promise<string[]> {
@@ -40,8 +133,7 @@ function filterProjectFiles(files: string[]): string[] {
   return files.filter(
     (file) =>
       file.startsWith("projects/") &&
-      file.endsWith(".json") &&
-      !file.includes(".")
+      file.endsWith(".json")
   );
 }
 
@@ -78,7 +170,9 @@ async function validateProjectFile(filePath: string): Promise<ValidationResult> 
       return {
         file: fileName,
         valid: false,
-        error: `Validation error: ${JSON.stringify(result.error.format())}`,
+        error: `Validation error`,
+        zodError: result.error,
+        parsedData: parsed,
       };
     }
 
@@ -96,11 +190,12 @@ async function validateProjectFile(filePath: string): Promise<ValidationResult> 
 }
 
 async function main() {
-  console.log("Validating projects in PR...\n");
+  const prId = process.env.GITHUB_REF ? process.env.GITHUB_REF.split("/").pop() : "unknown";
+  console.log(`Validating projects in PR #${prId}...`);
 
   // Get changed files
   const changedFiles = await getChangedFiles();
-  console.log(`Found ${changedFiles.length} changed files`);
+  console.log(`Found ${changedFiles.length} changed file(s).\n`);
 
   // Filter for project files
   const changedProjectFiles = filterProjectFiles(changedFiles);
@@ -110,23 +205,26 @@ async function main() {
     process.exit(0);
   }
 
-  console.log(`\nValidating ${changedProjectFiles.length} project file(s):\n`);
-
   // Validate each file
   const results: ValidationResult[] = [];
   for (const file of changedProjectFiles) {
     const result = await validateProjectFile(file);
     results.push(result);
-    console.log(
-      `${result.valid ? "✓" : "✗"} ${result.file}${result.error ? ` - ${result.error}` : ""}`
-    );
+    if (!result.valid) {
+      console.log(`## ✗ ${result.file}\n`);
+      if (result.zodError) {
+        console.log(formatZodErrors(file, result.zodError, result.parsedData));
+      } else if (result.error) {
+        console.log(`  ${result.error}`);
+      }
+    }
   }
 
   // Summary
   const validCount = results.filter((r) => r.valid).length;
   const invalidCount = results.filter((r) => !r.valid).length;
 
-  console.log(`\nValidation Summary:`);
+  console.log(`\n## Validation Summary:\n`);
   console.log(`✓ Valid: ${validCount}`);
   console.log(`✗ Invalid: ${invalidCount}`);
 

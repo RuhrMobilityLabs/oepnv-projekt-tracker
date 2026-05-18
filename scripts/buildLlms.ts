@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { HOME_INTRO_TEXT } from "../src/lib/siteCopy";
 
 type Project = {
   id: string;
@@ -18,7 +19,7 @@ function buildLlmsContent(projects: Project[]): string {
   const lines: string[] = [
     "# ÖPNV Projekt Tracker",
     "",
-    "Interaktive Übersicht über ÖPNV-Projekte mit Statusverlauf, Projektarten und Quellen.",
+    HOME_INTRO_TEXT,
     "",
     `Stand: ${new Date().toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" })}`,
     "",

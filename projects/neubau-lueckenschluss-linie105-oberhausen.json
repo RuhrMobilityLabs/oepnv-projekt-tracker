@@ -1,0 +1,69 @@
+{
+	"id": "lueckenschluss-linie105-oberhausen",
+	"name": "Lückenschluss Straßenbahnlinie 105 – Essen / Oberhausen",
+	"projectType": "neubau",
+	"transportTypes": [
+		"stadtbahn"
+	],
+	"cities": [
+		"Essen",
+		"Oberhausen"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"operators": [
+		"Ruhrbahn",
+		"STOAG"
+	],
+	"description": "Geplanter Lückenschluss der Straßenbahnlinie 105 von der heutigen Endhaltestelle Essen Unterstraße über die Essener Straße bis zum Anschluss an die ÖPNV-Trasse in der Neuen Mitte Oberhausen. Die rund 3,5 Kilometer lange Neubaustrecke soll Essen und Oberhausen wieder direkt und umsteigefrei verbinden und die Erreichbarkeit der Neuen Mitte, des Centro-Umfelds und angrenzender Quartiere verbessern.",
+	"statusHistory": [
+		{
+			"status": "antrag",
+			"date": "2024-02-05",
+			"note": "Der Rat der Stadt Oberhausen beschließt, eine neue Planung zum Lückenschluss der Linie 105 gemäß dem Trassenvorschlag des Masterplans Neue Mitte zu entwickeln.",
+			"sourceUrl": "https://www.stoag.de/dialog/neuigkeiten/detail/direkte-strassenbahnverbindung-zwischen-oberhausen-und-essen-1.html"
+		},
+		{
+			"status": "geplant",
+			"date": "2025",
+			"note": "Die Projektwebseite nennt 2025 als Beginn der Öffentlichkeitsarbeit für den Lückenschluss der Linie 105.",
+			"sourceUrl": "https://www.linie105.de/"
+		},
+		{
+			"status": "geplant",
+			"date": "2026-05-13",
+			"note": "Bei der Bürgerinformationsveranstaltung wird der aktuelle Planungsstand vorgestellt und die Vorplanung mit Rückmeldungen aus der Öffentlichkeit weiterentwickelt.",
+			"sourceUrl": "https://www.stoag.de/dialog/neuigkeiten/detail/direkte-strassenbahnverbindung-zwischen-oberhausen-und-essen-1.html"
+		},
+		{
+			"status": "geplant",
+			"date": "2026-06-01",
+			"note": "Für den Sommer 2026 ist die politische Beschlussfassung auf Basis der Vorplanung vorgesehen.",
+			"sourceUrl": "https://www.linie105.de/"
+		},
+		{
+			"status": "geplant",
+			"date": "2027-03-01",
+			"note": "Für das Frühjahr 2027 ist der Beginn des Planfeststellungsverfahrens angekündigt.",
+			"sourceUrl": "https://www.linie105.de/"
+		}
+	],
+	"sources": [
+		{
+			"title": "linie105.de: Lückenschluss der Linie 105",
+			"url": "https://www.linie105.de/"
+		},
+		{
+			"title": "STOAG: Direkte Straßenbahnverbindung zwischen Oberhausen und Essen",
+			"url": "https://www.stoag.de/dialog/neuigkeiten/detail/direkte-strassenbahnverbindung-zwischen-oberhausen-und-essen-1.html",
+			"date": "2026-05-15"
+		},
+		{
+			"title": "Radio Essen: Straßenbahn von Essen nach Oberhausen nimmt nächste Hürde",
+			"url": "https://www.radioessen.de/artikel/strassenbahn-von-essen-nach-oberhausen-nimmt-naechste-huerde-1895842",
+			"date": "2024-02-06"
+		}
+	],
+	"lastUpdated": "2026-05-15"
+}

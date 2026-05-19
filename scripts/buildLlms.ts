@@ -6,6 +6,7 @@ import { HOME_INTRO_TEXT } from "../src/lib/siteCopy";
 type Project = {
   id: string;
   name: string;
+  description?: string;
   [key: string]: unknown;
 };
 
@@ -15,7 +16,23 @@ const __dirname = path.dirname(__filename);
 const projectsPath = path.join(__dirname, "../generated/projects.json");
 const outputPath = path.join(__dirname, "../public/llms.txt");
 
+function getSiteUrl(): string {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL.endsWith("/")
+      ? process.env.NEXT_PUBLIC_SITE_URL
+      : `${process.env.NEXT_PUBLIC_SITE_URL}/`;
+  }
+
+  if (process.env.GITHUB_ACTIONS && process.env.GITHUB_REPOSITORY) {
+    const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
+    return `https://${owner}.github.io/${repo}/`;
+  }
+
+  return "/";
+}
+
 function buildLlmsContent(projects: Project[]): string {
+  const siteUrl = getSiteUrl();
   const lines: string[] = [
     "# ÖPNV Projekt Tracker",
     "",
@@ -27,10 +44,10 @@ function buildLlmsContent(projects: Project[]): string {
 
   for (const project of projects) {
     lines.push(`## ${project.name}`);
-    lines.push("");
-    lines.push("```json");
-    lines.push(JSON.stringify(project, null, 2));
-    lines.push("```");
+    lines.push(`${siteUrl}projects/${project.id}`);
+    if (project.description) {
+      lines.push(`Beschreibung: ${project.description}`);
+    }
     lines.push("");
   }
 

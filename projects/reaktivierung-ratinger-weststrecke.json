@@ -51,8 +51,42 @@
     }
   ],
   "coordinates": {
-    "lat": 51.4356,
-    "lng": 6.8814
+    "lat": 51.2998,
+    "lng": 6.8387
   },
+  "stations": [
+    {
+      "name": "Sportpark Duisburg",
+      "coordinates": {
+        "lat": 51.4114,
+        "lng": 6.7778
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Bahnhof Wedau",
+      "coordinates": {
+        "lat": 51.3992,
+        "lng": 6.8035
+      },
+      "status": "existing"
+    },
+    {
+      "name": "Lintorf",
+      "coordinates": {
+        "lat": 51.3358,
+        "lng": 6.8262
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Ratingen West",
+      "coordinates": {
+        "lat": 51.2998,
+        "lng": 6.8387
+      },
+      "status": "planned"
+    }
+  ],
   "lastUpdated": "2026-03-22"
 }

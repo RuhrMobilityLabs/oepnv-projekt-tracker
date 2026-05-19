@@ -1,0 +1,56 @@
+{
+	"id": "neubau-strassenbahn-rheinhausen-duisburg",
+	"name": "Neubau Straßenbahnanbindung Rheinhausen",
+	"projectType": "neubau",
+	"transportTypes": [
+		"stadtbahn"
+	],
+	"cities": [
+		"Duisburg"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"operators": [
+		"DVG"
+	],
+	"description": "Geplante Straßenbahnanbindung der linksrheinischen Stadtteile Duisburgs nach Rheinhausen über die Brücke der Solidarität. Die Machbarkeitsstudie untersucht Varianten von Hochfeld zum Hochemmericher Markt und Bahnhof Rheinhausen sowie Weiterentwicklungen in Richtung Neudorf und Rumeln-Kaldenhausen.",
+	"statusHistory": [
+		{
+			"status": "idee",
+			"date": "2017-02-01",
+			"note": "Der Nahverkehrsplan 2017 verankert perspektivisch die Anbindung der linksrheinischen Stadtteile an das kommunale Schienennetz und skizziert Strecken über die Brücke der Solidarität und die Friedrich-Ebert-Brücke.",
+			"sourceUrl": "https://www.duesseldorf.de/fileadmin/Amt66/verkehrsmanagement/pdf/NVP/NVP_Stadt_Duisburg.pdf"
+		},
+		{
+			"status": "antrag",
+			"date": "2023-04-27",
+			"note": "Der Rat der Stadt Duisburg beschließt, der Straßenbahnanbindung Rheinhausen Priorität 1 einzuräumen und die Trasse für einen künftigen Bedarf freizuhalten.",
+			"sourceUrl": "https://sessionnet.owl-it.de/duisburg/bi/getfile.asp?id=1699852&type=do"
+		},
+		{
+			"status": "geplant",
+			"date": "2025-04-01",
+			"note": "Die Machbarkeitsstudie zur Schienenanbindung Rheinhausen untersucht Verlängerungsperspektiven Ost und West und beschreibt die Straßenbahnverbindung über die Brücke der Solidarität als erstmals realistisch umsetzbar.",
+			"sourceUrl": "https://sessionnet.owl-it.de/duisburg/bi/getfile.asp?id=1755444&type=do"
+		}
+	],
+	"sources": [
+		{
+			"title": "Stadt Duisburg: Nahverkehrsplan Stadt Duisburg",
+			"url": "https://www.duesseldorf.de/fileadmin/Amt66/verkehrsmanagement/pdf/NVP/NVP_Stadt_Duisburg.pdf",
+			"date": "2017-02-01"
+		},
+		{
+			"title": "Stadt Duisburg: Beschluss zur Priorität 1 für die Straßenbahnanbindung Rheinhausen",
+			"url": "https://sessionnet.owl-it.de/duisburg/bi/getfile.asp?id=1699852&type=do",
+			"date": "2023-04-27"
+		},
+		{
+			"title": "Stadt Duisburg: Machbarkeitsstudie Schienenanbindung Rheinhausen mit Untersuchung von Verlängerungsperspektiven Ost und West",
+			"url": "https://sessionnet.owl-it.de/duisburg/bi/getfile.asp?id=1755444&type=do",
+			"date": "2025-04-01"
+		}
+	],
+	"lastUpdated": "2025-04-01"
+}

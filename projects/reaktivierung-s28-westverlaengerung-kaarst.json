@@ -1,0 +1,71 @@
+{
+  "id": "reaktivierung-s28-westverlaengerung-kaarst",
+  "name": "Reaktivierung Westverlängerung S28 zwischen Kaarst und Viersen",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Kaarst",
+    "Viersen",
+    "Willich"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "VRR",
+    "DB InfraGO"
+  ],
+  "description": "Reaktivierung der Regiobahn- bzw. S28-Westverlängerung zwischen Kaarster See, Willich-Schiefbahn, Willich-Neersen und Viersen. Die bestehende, eisenbahnrechtlich gewidmete Trasse soll als wichtiger Lückenschluss im SPNV-Netz am linken Niederrhein reaktiviert und perspektivisch im NRW-Zielnetz 2032 berücksichtigt werden.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2019-12-01",
+      "note": "Der Endbericht zur Studie liegt seit Dezember 2019 vor; die Westverlängerung wird dort als wichtiger Lückenschluss im Schienenpersonennahverkehr am linken Niederrhein beschrieben.",
+      "sourceUrl": "https://www.kreis-viersen.de/themen/mobilitaet/westverlaengerung-der-regiobahn-infrastruktur"
+    },
+    {
+      "status": "antrag",
+      "date": "2021-07-01",
+      "note": "Der Kreis Viersen sowie die Städte Mönchengladbach, Viersen und Willich unterzeichnen eine gemeinsame Erklärung und schaffen damit regionalen Konsens für die Umsetzung des Projekts.",
+      "sourceUrl": "https://www.kreis-viersen.de/themen/mobilitaet/westverlaengerung-der-regiobahn-infrastruktur"
+    },
+    {
+      "status": "antrag",
+      "date": "2023-02-01",
+      "note": "Die Regiobahn vergibt die Planungsleistungen nach HOAI für die Leistungsphasen 1 und 2; Grundlagenermittlung und Vorplanung laufen parallel.",
+      "sourceUrl": "https://www.kreis-viersen.de/themen/mobilitaet/westverlaengerung-der-regiobahn-infrastruktur"
+    },
+    {
+      "status": "geplant",
+      "date": "2025-02-03",
+      "note": "Für die vorbereitenden Planungsleistungen werden weitere Fördermittel bewilligt, damit auch die Anforderungen eines 15-Minuten-Takts berücksichtigt werden können.",
+      "sourceUrl": "https://rheinischer-spiegel.de/westverlaengerung-der-regiobahn-foerdermittel-fuer-15-minuten-takt-der-s28/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kreis Viersen: Westverlängerung der Regiobahn-Infrastruktur",
+      "url": "https://www.kreis-viersen.de/themen/mobilitaet/westverlaengerung-der-regiobahn-infrastruktur"
+    },
+    {
+      "title": "Kreis Viersen: Westverlängerung Regiobahn S28 - Studie",
+      "url": "https://www.kreis-viersen.de/system/files/dokumente/westverlaengerung_s28_bericht.pdf"
+    },
+    {
+      "title": "Rheinischer Spiegel: Westverlängerung der Regiobahn: Fördermittel für 15-Minuten-Takt der S28",
+      "url": "https://rheinischer-spiegel.de/westverlaengerung-der-regiobahn-foerdermittel-fuer-15-minuten-takt-der-s28/",
+      "date": "2025-02-03"
+    },
+    {
+      "title": "Westdeutsche Zeitung: Fördermittel für S28 zugesagt",
+      "url": "https://www.wz.de/nrw/kreis-viersen/kempen-und-grefrath/foerdermittel-fuer-s28-zugesagt_aid-123694393"
+    },
+    {
+      "title": "KCITF NRW: Netzgrafik NRW 2032, 2. Gutachterentwurf",
+      "url": "https://www.kcitf-nrw.de/fileadmin/03_KC_Seiten/KCITF/Service/Netzgrafik_NRW_2032_2._Gutachterentwurf.pdf"
+    }
+  ],
+  "lastUpdated": "2025-02-03"
+}

@@ -10,7 +10,7 @@
   "statusHistory": [
     {
       "status": "geplant",
-      "date": "2021-06",
+      "date": "2021-06-01",
       "note": "Interkommunarer Arbeitskreis gestartet (Machbarkeitsuntersuchung zur Trassenführung und Erschließung).",
       "sourceUrl": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/4-ba-ratingen-west"
     }
@@ -26,5 +26,6 @@
       "title": "Stadt Düsseldorf – U81: 4. Bauabschnitt (Ratingen West)",
       "url": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/4-ba-ratingen-west"
     }
-  ]
+  ],
+  "lastUpdated": "2021-06-01"
 }

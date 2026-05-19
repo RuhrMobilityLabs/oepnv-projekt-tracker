@@ -66,6 +66,7 @@ export const projectSchema = z.object({
   stations: z.array(Station).optional(),
   coordinates: Coordinates.optional(),
   lastUpdated: z.string().optional(),
+  relatedProjects: z.array(z.string()).optional(),
 });
 
 export const projectArraySchema = z.array(projectSchema);

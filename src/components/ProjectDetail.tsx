@@ -7,8 +7,15 @@ import { formatLocalDate } from "@/lib/formatDate";
 import { getLatestStatus } from "@/lib/getLatestStatus";
 import { Undo2 } from "lucide-react";
 
-export default function ProjectDetail({ project }: { project: Project }) {
+export default function ProjectDetail({ project, projects }: { project: Project; projects?: Project[] }) {
   const lastStatus = getLatestStatus(project);
+
+  // Get related projects
+  const relatedProjects = project.relatedProjects
+    ? project.relatedProjects
+        .map((id) => projects?.find((p) => p.id === id))
+        .filter((p) => p !== undefined) as Project[]
+    : [];
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6 sm:px-5 lg:px-6">
@@ -129,6 +136,24 @@ export default function ProjectDetail({ project }: { project: Project }) {
                         {source.title}
                       </a>
                       {source.date && <div className="mt-1 text-xs font-medium uppercase tracking-[0.18em] text-muted">{formatLocalDate(source.date)}</div>}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {relatedProjects.length > 0 && (
+              <section className="rounded-2xl border border-border bg-background/50 p-3">
+                <h2 className="text-sm font-semibold text-foreground">Verwandte Projekte</h2>
+                <ul className="mt-3 space-y-2">
+                  {relatedProjects.map((relatedProject) => (
+                    <li key={relatedProject.id} className="rounded-2xl border border-border bg-surface px-3 py-2 transition hover:border-primary/50">
+                      <Link href={`/projects/${relatedProject.id}`} className="block text-sm font-semibold text-primary transition hover:underline">
+                        {relatedProject.name}
+                      </Link>
+                      {relatedProject.description && (
+                        <p className="mt-1 text-xs leading-4 text-muted line-clamp-2">{relatedProject.description}</p>
+                      )}
                     </li>
                   ))}
                 </ul>

@@ -58,7 +58,7 @@ export default async function ProjectPage({ params }: Props) {
 
   return (
     <main className="min-h-screen pb-16 pt-4">
-      <ProjectDetail project={project} />
+      <ProjectDetail project={project} projects={projects as Project[]} />
     </main>
   );
 }

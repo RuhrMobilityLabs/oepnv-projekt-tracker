@@ -25,11 +25,11 @@ interface FormattedError {
   message: string;
 }
 
-function getValueAtPath(obj: unknown, path: (string | number)[]): unknown {
+function getValueAtPath(obj: unknown, path: PropertyKey[]): unknown {
   let current = obj;
   for (const key of path) {
     if (typeof current === "object" && current !== null) {
-      current = (current as Record<string, unknown>)[key];
+      current = (current as Record<PropertyKey, unknown>)[key];
     } else {
       return undefined;
     }

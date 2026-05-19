@@ -1,0 +1,58 @@
+{
+	"id": "neubau-revierbahn-west-aachen",
+	"name": "Reaktivierung und Neubau Revierbahn West zwischen Aachen und Bedburg",
+	"projectType": "neubau",
+	"transportTypes": [
+		"eisenbahn"
+	],
+	"cities": [
+		"Aachen",
+		"Jülich",
+		"Bergheim",
+		"Bedburg"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"description": "Machbarkeitsstudie zur Revierbahn West als neue beziehungsweise reaktivierte Schienenverbindung zwischen Aachen, Jülich und der Erftachse bis Bedburg. Geprüft werden zweigleisige, elektrifizierte und barrierefreie Trassen, die den Schienenpersonennahverkehr im Rheinischen Revier verbessern und strukturwandelrelevante Ziele wie den Brainergy Park und das Forschungszentrum Jülich anbinden sollen.",
+	"statusHistory": [
+		{
+			"status": "antrag",
+			"date": "2025-11-14",
+			"note": "Kickoff-Veranstaltung bei go.Rheinland in Köln: Das Projekt und die Planungsbeteiligten werden vorgestellt, ebenso der Ablauf der Raumverträglichkeitsprüfung zur Trassenfindung.",
+			"sourceUrl": "https://session.rhein-kreis-neuss.de/bi/vo0050.asp?__kvonr=16851"
+		},
+		{
+			"status": "geplant",
+			"date": "2026-01-14",
+			"note": "Erste Grobtrassen werden vorgestellt; für die Lupenräume Aachen–Jülich und Jülich–Erftachse entstehen regionale und schnelle Varianten als Grundlage der weiteren Prüfung.",
+			"sourceUrl": "https://avv.de/de/aktuelles/neuigkeiten/machbarkeitsstudie-revierbahn-west-erste-grobtrassen-vorgestellt"
+		},
+		{
+			"status": "geplant",
+			"date": "2026-04-22",
+			"note": "Die Bewertungsmatrix schafft die Grundlage für die Ermittlung der Vorzugsvarianten; die politische Entscheidung durch go.Rheinland ist für das zweite Halbjahr 2026 vorgesehen.",
+			"sourceUrl": "https://www.vrr.de/aktuelles/newsroom/machbarkeitsstudie-revierbahn-west-bewertungsmatrix-schafft-grundlage-fuer-die-ermittlung-der-vorzugsvariante/"
+		}
+	],
+	"sources": [
+		{
+			"title": "Rhein-Kreis Neuss: Sachstandsbericht zum Fortschritt der Planungen der Revierbahn West",
+			"url": "https://session.rhein-kreis-neuss.de/bi/vo0050.asp?__kvonr=16851"
+		},
+		{
+			"title": "AVV: Machbarkeitsstudie Revierbahn West: Erste Grobtrassen vorgestellt",
+			"url": "https://avv.de/de/aktuelles/neuigkeiten/machbarkeitsstudie-revierbahn-west-erste-grobtrassen-vorgestellt"
+		},
+		{
+			"title": "VRR: Machbarkeitsstudie Revierbahn West: Bewertungsmatrix schafft Grundlage für die Ermittlung der Vorzugsvariante",
+			"url": "https://www.vrr.de/aktuelles/newsroom/machbarkeitsstudie-revierbahn-west-bewertungsmatrix-schafft-grundlage-fuer-die-ermittlung-der-vorzugsvariante/",
+			"date": "2026-04-22"
+		},
+		{
+			"title": "go.Rheinland: Reaktivierung und Neubau der Revierbahn West",
+			"url": "https://wir.gorheinland.com/ausbau/rheinisches-revier/machbarkeitsstudien/machbarkeitsstudien/revierbahn-west/"
+		}
+	],
+	"lastUpdated": "2026-04-22"
+}

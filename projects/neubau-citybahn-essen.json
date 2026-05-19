@@ -1,0 +1,48 @@
+{
+	"id": "neubau-citybahn-essen",
+	"name": "Neubau CITYBAHN Essen",
+	"projectType": "neubau",
+	"transportTypes": [
+		"stadtbahn"
+	],
+	"cities": [
+		"Essen"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"operators": [
+		"Ruhrbahn"
+	],
+	"description": "Neue Straßenbahn- und Stadtbahnstrecke in Essen in drei Bauabschnitten von der Innenstadt über den Hauptbahnhof und ESSEN 51. bis zum Berthold-Beitz-Boulevard. Die CITYBAHN umfasst rund 5 Kilometer Streckenlänge mit 11 neuen Haltestellen und wird stufenweise in Betrieb genommen.",
+	"statusHistory": [
+		{
+			"status": "im_bau",
+			"date": "2024-11-06",
+			"note": "Die Bauarbeiten laufen nach Plan; wegen Bergbauschäden am Berthold-Beitz-Boulevard wird die Inbetriebnahme stufenweise bis 2028 angepasst. Der erste Abschnitt rund um den Hauptbahnhof soll im Sommer 2026 starten.",
+			"sourceUrl": "https://www.essen.de/meldungen/pressemeldung_1545639.de.html"
+		},
+		{
+			"status": "geplant",
+			"date": "2024",
+			"note": "Die offizielle Projektseite beschreibt die Strecke in drei Abschnitten von Ost nach West mit Baubeginn 2024 für Abschnitt 1 und ursprünglich 2024 beziehungsweise 2025 für die weiteren Abschnitte.",
+			"sourceUrl": "https://www.citybahn-essen.de/planung-bau/bauabschnitte"
+		}
+	],
+	"sources": [
+		{
+			"title": "CITYBAHN Essen – Bauabschnitte",
+			"url": "https://www.citybahn-essen.de/planung-bau/bauabschnitte"
+		},
+		{
+			"title": "CITYBAHN Essen – Streckennetz 2025",
+			"url": "https://www.citybahn-essen.de/planung-bau/streckennetz"
+		},
+		{
+			"title": "Stadt Essen: CITYBAHN wird stufenweise in Betrieb genommen",
+			"url": "https://www.essen.de/meldungen/pressemeldung_1545639.de.html",
+			"date": "2024-11-06"
+		}
+	],
+	"lastUpdated": "2024-11-06"
+}

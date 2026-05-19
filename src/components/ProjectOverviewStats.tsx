@@ -8,6 +8,7 @@ import {
 import { PROJECT_TYPE_CONFIG } from "@/config/projectType";
 import { STATUS_CONFIG } from "@/config/status";
 import { TRANSPORT_TYPE_CONFIG } from "@/config/transportType";
+import { getLatestStatus } from "@/lib/getLatestStatus";
 import {
   PROJECT_STATUSES,
   PROJECT_TYPES,
@@ -20,12 +21,6 @@ import {
 
 function incrementCount<T extends string>(counts: Partial<Record<T, number>>, key: T) {
   counts[key] = (counts[key] ?? 0) + 1;
-}
-
-function getLatestStatus(project: Project): ProjectStatus | "unknown" {
-  const latestStatus = project.statusHistory[project.statusHistory.length - 1]?.status as ProjectStatus | undefined;
-
-  return latestStatus ?? "unknown";
 }
 
 function StatPill({

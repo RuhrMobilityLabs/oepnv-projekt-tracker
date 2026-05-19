@@ -4,10 +4,11 @@ import { PROJECT_TYPE_CONFIG } from "@/config/projectType";
 import { TRANSPORT_TYPE_CONFIG } from "@/config/transportType";
 import { STATUS_CONFIG } from "@/config/status";
 import { formatLocalDate } from "@/lib/formatDate";
+import { getLatestStatus } from "@/lib/getLatestStatus";
 import { Undo2 } from "lucide-react";
 
 export default function ProjectDetail({ project }: { project: Project }) {
-  const lastStatus = project.statusHistory[project.statusHistory.length - 1]?.status ?? "-";
+  const lastStatus = getLatestStatus(project);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6 sm:px-5 lg:px-6">

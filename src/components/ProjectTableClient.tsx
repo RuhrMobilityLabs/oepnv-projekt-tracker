@@ -16,14 +16,11 @@ import { PROJECT_STATUSES } from "@/lib/schemas/projectSchema";
 import { TRANSPORT_TYPE_CONFIG } from "@/config/transportType";
 import { STATUS_CONFIG } from "@/config/status";
 import { formatLocalDate } from "@/lib/formatDate";
+import { getLatestStatus } from "@/lib/getLatestStatus";
 
 type SortKey = "name" | "projectType" | "transportTypes" | "cities" | "status" | "lastUpdated";
 type SortDirection = "asc" | "desc" | undefined;
 type FilterColumn = "projectType" | "transportTypes" | "status";
-
-function getLatestStatus(project: Project) {
-  return project.statusHistory[project.statusHistory.length - 1]?.status ?? "unknown";
-}
 
 function compareText(left: string, right: string) {
   return left.localeCompare(right, "de", { sensitivity: "base" });

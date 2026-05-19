@@ -1,0 +1,29 @@
+{
+  "id": "neubau-u81-ba3-flughafen-bahnhof",
+  "name": "Neubau Stadtbahn U81 – 3. Flughafen Bahnhof",
+  "projectType": "neubau",
+  "transportTypes": ["stadtbahn"],
+  "cities": ["Düsseldorf"],
+  "states": ["nordrhein-westfalen"],
+  "operators": ["Rheinbahn"],
+  "description": "Dritter Bauabschnitt der neuen U81: Trassenabschnitt zwischen Flughafen-Terminal und dem Bahnhof Düsseldorf-Flughafen. Nutzung/Anpassung der vorhandenen S-Bahn-Trasse ist vorgesehen, zwei zusätzliche Haltestellen (u. a. Wanheimer Straße) sind geplant; Trassenausbau und Brückenanpassungen sind Bestandteil der Vorplanung.",
+  "statusHistory": [
+    {
+      "status": "geplant",
+      "date": "Vorplanung",
+      "note": "Vorzugstrasse bestimmt; Nutzung der S-Bahn-Trasse mit teilweisen Gleisanpassungen und Rampenbauwerken; ca. 3 km Länge mit zwei neuen Haltestellen (Wanheimer Straße, Düsseldorf Flughafen).",
+      "sourceUrl": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/3-ba-flughafen-bahnhof"
+    }
+  ],
+  "relatedProjects": [
+    "neubau-u81-ba1-duesseldorf",
+    "neubau-u81-ba2-rheinquerung",
+    "neubau-u81-ba4-ratingen-west"
+  ],
+  "sources": [
+    {
+      "title": "Stadt Düsseldorf – U81: 3. Bauabschnitt (Flughafen Bahnhof)",
+      "url": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/3-ba-flughafen-bahnhof"
+    }
+  ]
+}

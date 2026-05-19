@@ -1,0 +1,30 @@
+{
+  "id": "neubau-u81-ba4-ratingen-west",
+  "name": "Neubau Stadtbahn U81 – 4. Ratingen West",
+  "projectType": "neubau",
+  "transportTypes": ["stadtbahn"],
+  "cities": ["Düsseldorf","Ratingen"],
+  "states": ["nordrhein-westfalen"],
+  "operators": ["Rheinbahn"],
+  "description": "Vierter Bauabschnitt der neuen U81: Verbindung vom Bahnhof Düsseldorf-Flughafen nach Ratingen West. Geplante Länge etwa 4,3 km; interkommunale Abstimmung und Machbarkeitsuntersuchungen laufen, um Trassenführung und Erschließung zu optimieren.",
+  "statusHistory": [
+    {
+      "status": "geplant",
+      "date": "2021-06",
+      "note": "Interkommunarer Arbeitskreis gestartet (Machbarkeitsuntersuchung zur Trassenführung und Erschließung).",
+      "sourceUrl": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/4-ba-ratingen-west"
+    }
+  ],
+  "relatedProjects": [
+    "neubau-u81-ba1-duesseldorf",
+    "neubau-u81-ba2-rheinquerung",
+    "neubau-u81-ba3-flughafen-bahnhof",
+    "reaktivierung-ratinger-weststrecke"
+  ],
+  "sources": [
+    {
+      "title": "Stadt Düsseldorf – U81: 4. Bauabschnitt (Ratingen West)",
+      "url": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/4-ba-ratingen-west"
+    }
+  ]
+}

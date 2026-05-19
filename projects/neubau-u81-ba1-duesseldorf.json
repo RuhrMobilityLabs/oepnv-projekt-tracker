@@ -1,0 +1,62 @@
+{
+  "id": "neubau-u81-ba1-duesseldorf",
+  "name": "Neubau Stadtbahn U81 – 1. Flughafen Terminal",
+  "projectType": "neubau",
+  "transportTypes": [
+    "stadtbahn"
+  ],
+  "cities": [
+    "Düsseldorf"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "Rheinbahn"
+  ],
+  "description": "Erster Bauabschnitt der neuen U81: Verbindung vom Flughafen-Terminal zum Freiligrathplatz (inkl. unterirdischem Bahnhof am Terminal und Trasse über den Nordstern). Enthält neue rund 1,9 km Trasse.",
+  "statusHistory": [
+    {
+      "status": "fertiggestellt",
+      "date": "2026-09-04",
+      "note": "Geplanter Betriebsstart / Premiere (Eröffnungsveranstaltung).",
+      "sourceUrl": "https://rp-online.de/nrw/staedte/duesseldorf/verkehr/duesseldorf-starttermin-der-u81-zum-flughafen-steht-fest_aid-147849529"
+    },
+    {
+      "status": "im_bau",
+      "date": "2026-06",
+      "note": "Städtische Angaben deuten auf bauliche Fertigstellung Ende Juni 2026; Tests und behördliche Abnahmen folgen.",
+      "sourceUrl": "https://rp-online.de/nrw/staedte/duesseldorf/verkehr/duesseldorf-starttermin-der-u81-zum-flughafen-steht-fest_aid-147849529"
+    },
+    {
+      "status": "im_bau",
+      "date": "2024-12-27",
+      "note": "Berichte über Probleme bei der Elektrogrundinstallation; Auswirkungen auf Zeitplan wurden diskutiert.",
+      "sourceUrl": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-der-bau-der-u81-koennte-sich-verzoegern_aid-122391923"
+    },
+    {
+      "status": "im_bau",
+      "date": "2019",
+      "note": "Erste Arbeiten zum Bauabschnitt begannen Ende der 2010er Jahre (Berichte zur Projektentwicklung)."
+    }
+  ],
+  "relatedProjects": [
+    "neubau-u81-ba2-rheinquerung",
+    "neubau-u81-ba3-flughafen-bahnhof",
+    "neubau-u81-ba4-ratingen-west"
+  ],
+  "sources": [
+    {
+      "title": "Stadt Düsseldorf – U81: 1. Bauabschnitt (Flughafen Terminal)",
+      "url": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/1-ba-flughafen-terminal"
+    },
+    {
+      "title": "RP-Online: Starttermin der U81 zum Flughafen steht fest (05.05.2026)",
+      "url": "https://rp-online.de/nrw/staedte/duesseldorf/verkehr/duesseldorf-starttermin-der-u81-zum-flughafen-steht-fest_aid-147849529"
+    },
+    {
+      "title": "RP-Online: Der Bau der U81 könnte sich verzögern (27.12.2024)",
+      "url": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-der-bau-der-u81-koennte-sich-verzoegern_aid-122391923"
+    }
+  ]
+}

@@ -31,6 +31,9 @@
       "sourceUrl": "https://www.vrr-investitionsprojekte.de/infrastruktur/spnv/ratinger-weststrecke/"
     }
   ],
+  "relatedProjects": [
+    "neubau-u81-ba4-ratingen-west"
+  ],
   "sources": [
     {
       "title": "VRR: Reaktivierung der Ratinger Weststrecke",

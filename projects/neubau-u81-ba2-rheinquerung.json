@@ -1,0 +1,37 @@
+{
+  "id": "neubau-u81-ba2-rheinquerung",
+  "name": "Neubau Stadtbahn U81 – 2. Rheinquerung",
+  "projectType": "neubau",
+  "transportTypes": ["stadtbahn"],
+  "cities": ["Düsseldorf","Neuss","Meerbusch"],
+  "states": ["nordrhein-westfalen"],
+  "operators": ["Rheinbahn"],
+  "description": "Zweiter Bauabschnitt der neuen U81: Querung des Rheins zwischen Arena/Messe Nord und Handweiser (Linksrheinische Anbindung). Entscheidung Brücke vs. Tunnel und konkrete Trassenführung werden geplant; umfangreicher Bürgerdialog und Umweltfragen begleitet das Projekt.",
+  "statusHistory": [
+    {
+      "status": "geplant",
+      "date": "2024-09-01",
+      "note": "Vorplanungen, Variantenprüfung (Brücke vs. Tunnel) sowie Öffentlichkeitsbeteiligung und FAQ zur Rheinquerung; Entscheidung über Bauart durch Stadtrat vorgesehen (Beratung 2025).",
+      "sourceUrl": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/2-ba-rheinquerung"
+    }
+  ],
+  "relatedProjects": [
+    "neubau-u81-ba1-duesseldorf",
+    "neubau-u81-ba3-flughafen-bahnhof",
+    "neubau-u81-ba4-ratingen-west"
+  ],
+  "sources": [
+    {
+      "title": "Stadt Düsseldorf – U81: 2. Bauabschnitt (Rheinquerung)",
+      "url": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/2-ba-rheinquerung"
+    },
+    {
+      "title": "Stadt Düsseldorf – FAQs zur Rheinquerung (U81/West)",
+      "url": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/2-ba-rheinquerung/fragen-und-antworten-faqs"
+    },
+    {
+      "title": "Bürgerverein Düsseldorf-Lörick – Informationen zur U81/Rheinquerung",
+      "url": "https://bv-duesseldorf-loerick.de/u81/"
+    }
+  ]
+}

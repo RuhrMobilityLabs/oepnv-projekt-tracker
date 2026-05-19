@@ -1,0 +1,44 @@
+{
+  "id": "reaktivierung-bahn-dalheim-roermond",
+  "name": "Reaktivierung Bahnstrecke Dalheim - Roermond",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Wegberg",
+    "Roermond"
+  ],
+  "description": "Langfristige Reaktivierung der Eisenbahnstrecke von Dalheim über die deutsch-niederländische Grenze nach Roermond. Im VRR-Zielnetz 2040 wird die Verbindung als Perspektive für den Schienenpersonennahverkehr mitgedacht; die Stadt Wegberg hat sich 2025 ausdrücklich für eine Reaktivierung im Personenverkehr ausgesprochen.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2023",
+      "note": "Im VRR-Zielnetz 2040 wird die Reaktivierung der Strecke über Dalheim nach Roermond als langfristige Perspektive für den SPNV genannt.",
+      "sourceUrl": "https://www.vrr.de/fileadmin/user_upload/pdf/magazin/2023_Artikel/Zielnetz_2040.pdf"
+    },
+    {
+      "status": "antrag",
+      "date": "2025-02-11",
+      "note": "Der Rat der Stadt Wegberg beschließt, die Reaktivierung der Bahnstrecke bis Roermond für den Personenverkehr zu unterstützen; eine Güterverkehrsführung durch die Stadt wird abgelehnt.",
+      "sourceUrl": "https://rp-online.de/nrw/staedte/wegberg/wegberg-gruene-setzen-auf-die-schiene-klare-absage-an-den-eisernen-rhein_aid-134063463"
+    }
+  ],
+  "sources": [
+    {
+      "title": "VRR: Zielnetz 2040",
+      "url": "https://www.vrr.de/fileadmin/user_upload/pdf/magazin/2023_Artikel/Zielnetz_2040.pdf"
+    },
+    {
+      "title": "RP Online: Grüne setzen auf die Schiene – klare Absage an den Eisernen Rhein",
+      "url": "https://rp-online.de/nrw/staedte/wegberg/wegberg-gruene-setzen-auf-die-schiene-klare-absage-an-den-eisernen-rhein_aid-134063463",
+      "date": "2025-09-03"
+    },
+    {
+      "title": "RP Online: Eiserner Rhein 2.0 – Widerstand gegen Ausbaupläne wächst",
+      "url": "https://rp-online.de/nrw/staedte/wegberg/wegberg-eiserner-rhein-20-widerstand-gegen-ausbauplaene-waechst_aid-147466943",
+      "date": "2026-05-04"
+    }
+  ],
+  "lastUpdated": "2026-05-04"
+}

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       "Interaktive Übersicht über ÖPNV-Projekte mit Statusverlauf, Projektarten und Quellen.",
     images: [
       {
-        url: `${siteUrl}og/og-image.png`,
+        url: "og/og-image.png",
         width: 1200,
         height: 630,
         alt: "ÖPNV Projekt Tracker - Interaktive Übersicht über ÖPNV-Projekte",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
       "Interaktive Übersicht über ÖPNV-Projekte mit Statusverlauf, Projektarten und Quellen.",
     images: [
       {
-        url: `${siteUrl}og/og-image.png`,
+        url: "og/og-image.png",
         width: 1200,
         height: 630,
         alt: "ÖPNV Projekt Tracker - Interaktive Übersicht über ÖPNV-Projekte",

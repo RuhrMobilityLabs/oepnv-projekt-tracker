@@ -1,0 +1,48 @@
+{
+	"id": "neubau-seilbahn-bonn",
+	"name": "Neubau Seilbahn Bonn – Venusberg / UN-Campus / Schießbergweg-Ramersdorf",
+	"projectType": "neubau",
+	"transportTypes": [
+		"seilbahn"
+	],
+	"cities": [
+		"Bonn"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"operators": [
+		"Stadtwerke Bonn",
+		"Bundesstadt Bonn"
+	],
+	"description": "Geplante urbane Seilbahn als ÖPNV-Verbindung vom Venusberg über Loki-Schmidt-Platz, UN-Campus und Rheinaue bis zum künftigen S-13-Haltepunkt Schießbergweg/Ramersdorf. Das Projekt soll den rechts- und linksrheinischen Verkehr entlasten und das Universitätsklinikum sowie den Rheinübergang besser anbinden.",
+	"statusHistory": [
+		{
+			"status": "geplant",
+			"date": "2026-03-24",
+			"note": "Die Trasse ist nahezu finalisiert, der Nutzen-Kosten-Index wurde aktualisiert und die nächsten Schritte sind mit Vorplanung bis Ende 2026, funktionaler Ausschreibung bis Ende 2027 und Planfeststellungsverfahren ab Mitte 2028 beschrieben.",
+			"sourceUrl": "https://www.bonn.de/pressemitteilungen/maerz-2026/neuer-sachstand-zur-bonner-seilbahn.php"
+		}
+	],
+	"sources": [
+		{
+			"title": "Bundesstadt Bonn: Die Bonner Seilbahn",
+			"url": "https://www.bonn.de/seilbahn"
+		},
+		{
+			"title": "Bundesstadt Bonn: Neuer Sachstand zur Bonner Seilbahn (24.03.2026)",
+			"url": "https://www.bonn.de/pressemitteilungen/maerz-2026/neuer-sachstand-zur-bonner-seilbahn.php",
+			"date": "2026-03-24"
+		},
+		{
+			"title": "Bundesstadt Bonn: Seilbahn-Planung - Aktueller Stand und Trasse",
+			"url": "https://www.bonn.de/themen-entdecken/verkehr-mobilitaet/seilbahn/inhaltsseiten/seilbahn-planung.php"
+		},
+		{
+			"title": "Bundesministerium für Verkehr und digitale Infrastruktur: Urbane Seilbahnen",
+			"url": "https://www.bmv.de/DE/Themen/Mobilitaet/OEPNV/Urbane-Seilbahnen/urbane-seilbahnen.html",
+			"date": "2025-08-19"
+		}
+	],
+	"lastUpdated": "2026-03-24"
+}

@@ -6,12 +6,19 @@ export const dynamic = 'force-static'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_PATH || '/'
 
-  const projectUrls = projects.map((project) => ({
-    url: `${baseUrl}projects/${project.id}`,
-    lastModified: new Date(project.lastUpdated),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
+  const projectUrls = projects.map((project) => {
+    const entry: MetadataRoute.Sitemap[number] = {
+      url: `${baseUrl}projects/${project.id}`,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    }
+
+    if (project.lastUpdated) {
+      entry.lastModified = new Date(project.lastUpdated)
+    }
+
+    return entry
+  })
 
   return [
     {
@@ -23,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}projects`,
       lastModified: new Date(),
-      changeFrequency: 'daily',
+      changeFrequency: 'weekly',
       priority: 0.8,
     },
     ...projectUrls,

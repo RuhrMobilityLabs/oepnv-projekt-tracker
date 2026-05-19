@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000/";
+const publicBase = process.env.NEXT_PUBLIC_BASE_PATH || "/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -11,9 +12,9 @@ export const metadata: Metadata = {
   description:
     "Interaktive Übersicht über ÖPNV-Projekte mit Statusverlauf, Projektarten und Quellen.",
   icons: {
-    icon: "favicon.png",
-    shortcut: "favicon.png",
-    apple: "icons/apple-touch-icon.png",
+    icon: `${publicBase}favicon.png`,
+    shortcut: `${publicBase}favicon.png`,
+    apple: `${publicBase}icons/apple-touch-icon.png`,
   },
   keywords: [
     "ÖPNV",
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
       "Interaktive Übersicht über ÖPNV-Projekte mit Statusverlauf, Projektarten und Quellen.",
     images: [
       {
-        url: "og/og-image.png",
+        url: `${publicBase}og/og-image.png`,
         width: 1200,
         height: 630,
         alt: "ÖPNV Projekt Tracker - Interaktive Übersicht über ÖPNV-Projekte",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
       "Interaktive Übersicht über ÖPNV-Projekte mit Statusverlauf, Projektarten und Quellen.",
     images: [
       {
-        url: "og/og-image.png",
+        url: `${publicBase}og/og-image.png`,
         width: 1200,
         height: 630,
         alt: "ÖPNV Projekt Tracker - Interaktive Übersicht über ÖPNV-Projekte",

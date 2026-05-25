@@ -6,6 +6,7 @@ import {
   FileText,
   Lightbulb,
   Map,
+  X,
 } from "lucide-react";
 
 import type { ProjectStatus } from "../lib/schemas/projectSchema";
@@ -48,5 +49,11 @@ export const STATUS_CONFIG: Record<
     label: "Fertiggestellt",
     color: "bg-green-600 text-white",
     icon: CheckCircle,
+  },
+
+  abgelehnt: {
+    label: "Abgelehnt",
+    color: "bg-red-600 text-white",
+    icon: X,
   },
 };

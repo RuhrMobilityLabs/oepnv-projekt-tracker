@@ -21,6 +21,7 @@ export const PROJECT_STATUSES = [
   "geplant",
   "im_bau",
   "fertiggestellt",
+  "abgelehnt",
 ] as const;
 
 export const STATION_STATUSES = [

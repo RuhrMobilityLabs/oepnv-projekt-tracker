@@ -20,7 +20,7 @@ export default function ProjectDetail({ project, projects }: { project: Project;
   return (
     <div className="mx-auto max-w-6xl px-4 py-6 sm:px-5 lg:px-6">
       <div className="mb-4 flex items-center justify-between gap-3">
-        <Link href="/projects" className="inline-flex items-center rounded-full border border-border bg-surface-elevated px-3 py-1.5 text-xs font-medium text-foreground transition hover:border-primary hover:text-primary gap-2">
+        <Link href="/" className="inline-flex items-center rounded-full border border-border bg-surface-elevated px-3 py-1.5 text-xs font-medium text-foreground transition hover:border-primary hover:text-primary gap-2">
           <Undo2 />
           Zur Projektübersicht
         </Link>

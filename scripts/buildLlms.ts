@@ -40,6 +40,10 @@ function buildLlmsContent(projects: Project[]): string {
     "",
     `Stand: ${new Date().toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" })}`,
     "",
+    "## Warum Bahnstrecken gebaut und reaktiviert werden sollten",
+    `${siteUrl}warum-bahnstrecken`,
+    "Warum neue Bahnstrecken gebaut und ehemalige Strecken reaktiviert werden sollten: Eine Einordnung zu Klima, Mobilität, Kosten und regionaler Entwicklung.",
+    "",
   ];
 
   for (const project of projects) {

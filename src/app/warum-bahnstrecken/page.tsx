@@ -8,8 +8,10 @@ import {
   MapPinned,
   Rocket,
   ShieldAlert,
+  Undo2,
   Users,
 } from "lucide-react";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Warum Bahnstrecken gebaut und reaktiviert werden sollten | ÖPNV Projekt Tracker",
@@ -20,6 +22,12 @@ export const metadata: Metadata = {
 export default function WhyRailLinesPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
+      <div className="mb-4 flex items-center justify-between gap-3">
+        <Link href="/" className="inline-flex items-center rounded-full border border-border bg-surface-elevated px-3 py-1.5 text-xs font-medium text-foreground transition hover:border-primary hover:text-primary gap-2">
+          <Undo2 />
+          Zurück
+        </Link>
+      </div>
       <section className="overflow-hidden rounded-3xl border border-border bg-surface-elevated shadow-[0_24px_80px_-36px_rgba(15,23,42,0.25)]">
         <div className="border-b border-border px-5 py-5 sm:px-8 sm:py-6">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">

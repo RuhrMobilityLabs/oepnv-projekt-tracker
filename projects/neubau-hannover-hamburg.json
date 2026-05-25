@@ -1,0 +1,84 @@
+{
+  "id": "neubau-hannover-hamburg",
+  "name": "Aus- und Neubaustrecke Hannover–Hamburg",
+  "projectType": "neubau",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Hannover",
+    "Celle",
+    "Bergen",
+    "Soltau",
+    "Hamburg"
+  ],
+  "states": [
+    "niedersachsen",
+    "hamburg"
+  ],
+  "operators": [
+    "Deutsche Bahn"
+  ],
+  "description": "Geplantes Infrastrukturprojekt zur Kapazitätserweiterung und Fahrzeitverkürzung zwischen Hannover und Hamburg im Rahmen des Deutschlandtakts. Untersucht werden Varianten eines Ausbaus der Bestandsstrecke sowie eine rund 109 km lange Neubaustrecke zwischen Hannover-Vinnhorst und Hamburg-Meckelfeld. Ziel ist die Entlastung der hoch ausgelasteten Nord-Süd-Achse (teilweise >140 % Auslastung) sowie eine Fahrzeitverkürzung im Fernverkehr. Das Projekt ist politisch umstritten (Alpha-E-Ausbau vs. Neubau), wird aber technisch und wirtschaftlich grundsätzlich positiv bewertet.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2015-01-01",
+      "note": "Alpha-E-Konzept als Grundlage für Ausbauplanungen im norddeutschen Bahnnetz"
+    },
+    {
+      "status": "idee",
+      "date": "2023-01-01",
+      "note": "Vertiefte Variantenuntersuchungen (Ausbau vs. Neubau) im Rahmen des Deutschlandtakts"
+    },
+    {
+      "status": "idee",
+      "date": "2025-06-27",
+      "note": "DB präsentiert aktualisierte Planungen inkl. möglicher Neubaustrecke (~109 km)"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-01-21",
+      "note": "Politische Forderungen und Verbände drängen auf Bundestagsentscheidung zur Neubaustrecke",
+      "sourceUrl": "https://www.zeit.de/news/2026-01/21/initiativen-fordern-zustimmung-fuer-strecke-hannover-hamburg"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-04-14",
+      "note": "Bundestagsanhörung bestätigt grundsätzliche technische und wirtschaftliche Machbarkeit der Neubaustrecke",
+      "sourceUrl": "https://www.bundestag.de/presse/hib/kurzmeldungen-1165222"
+    }
+  ],
+  "sources": [
+    {
+        "title": "Bahnprojekt Hamburg/Bremen – Hannover",
+        "url": "https://www.hamburg-bremen-hannover.de/hannover-hamburg.html"
+    },
+    {
+      "title": "Bahn stellt Planungen zur Strecke Hannover–Hamburg vor",
+      "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-hamburg-de/aktuell/presseinformationen-regional/Bahn-stellt-Planungen-zur-Strecke-Hannover-Hamburg-vor-13428136",
+      "date": "2025-06-27"
+    },
+    {
+      "title": "Hamburg fordert Neubaustrecke Hannover–Hamburg",
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/aktuelles/pressemeldungen/neubau-der-bahnstrecke-von-hannover-nach-hamburg-ist-unverzichtbar--1113576",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Initiativen fordern Zustimmung für Strecke Hannover–Hamburg",
+      "url": "https://www.zeit.de/news/2026-01/21/initiativen-fordern-zustimmung-fuer-strecke-hannover-hamburg",
+      "date": "2026-01-21"
+    },
+    {
+      "title": "Bundestag: Anhörung zur Aus-/Neubaustrecke Hannover–Hamburg",
+      "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1165222",
+      "date": "2026-04-14"
+    },
+    {
+      "title": "DB InfraGO: Sanierung Strecke Hamburg–Hannover startet",
+      "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-hamburg-de/aktuell/presseinformationen-regional/DB-InfraGO-startet-am-1-Mai-umfassende-Sanierung-der-Strecke-Hamburg-Hannover--13806802",
+      "date": "2026-04-22"
+    }
+  ],
+  "lastUpdated": "2026-04-22"
+}

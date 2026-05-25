@@ -1,0 +1,46 @@
+{
+	"id": "reaktivierung-krefeld-schluff",
+	"name": "Idee zur Reaktivierung Strecke Krefeld-Hüls (Schluff)",
+	"projectType": "neubau",
+	"transportTypes": [
+		"eisenbahn"
+	],
+	"cities": [
+		"Krefeld"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"operators": [
+		"DB InfraGO",
+		"SWK Mobil"
+	],
+	"description": "",
+	"statusHistory": [
+		{
+			"status": "idee",
+			"date": "2026-05-06",
+			"note": "„Darüber hinaus sieht der VCD Potenzial im Güterverkehr. Bereits heute werde die Trasse in St. Tönis genutzt, weitere Unternehmen könnten angebunden werden. Auch eine Reaktivierung für den Personenverkehr zwischen Hüls und Krefeld-Hauptbahnhof sei denkbar.“",
+			"sourceUrl": "https://rp-online.de/nrw/staedte/krefeld/krefeld-vcd-fordert-die-schluff-trasse-zu-erhalten_aid-147917899"
+		}
+	],
+	"sources": [
+		{
+			"title": "Politik bedauert Ende – VCD fordert neue Nutzung, Schluff-Aus in Krefeld",
+			"url": "https://rp-online.de/nrw/staedte/krefeld/krefeld-vcd-fordert-die-schluff-trasse-zu-erhalten_aid-147917899"
+		},
+		{
+			"title": "Ende einer Ära: Der Schluff wird zum Stand-Denkmal",
+			"url": "https://www.welleniederrhein.de/artikel/ende-einer-aera-der-schluff-wird-zum-stand-denkmal-2644314"
+		},
+		{
+			"title":"Schluss mit der Stilllegung – Der Schluff in Krefeld muss weiterfahren!, openPetition",
+			"url": "https://www.openpetition.de/petition/online/schluss-mit-der-stilllegung-der-schluff-in-krefeld-muss-weiterfahren#petition-main"
+		},
+		{
+			"title": "Vorschlag zur Reaktivierung und Umsetzung von Bahnstrecken in krefeld Und umgebung reaktiverung Ring Bahn?, linieplus",
+			"url": "https://linieplus.de/proposal/vorschlag-zur-reaktivierung-und-umsetzung-von-bahnstrecken-in-krefeld-und-umgebung/"
+		}
+	],
+	"lastUpdated": "2026-05-06"
+}

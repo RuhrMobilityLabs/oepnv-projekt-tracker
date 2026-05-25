@@ -1,0 +1,44 @@
+{
+	"id": "reaktivierung-krefeld-willich",
+	"name": "Reaktivierung Strecke Krefeld - Willich - Mönchengladbach",
+	"projectType": "reaktivierung",
+	"transportTypes": [
+		"eisenbahn"
+	],
+	"cities": [
+		"Krefeld",
+		"Willich",
+		"Mönchengladbach"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"operators": [
+		"DB InfraGO",
+		"SWK Mobil"
+	],
+	"description": "(Abgelehnt) Idee zur Reaktivierung der stillgelegten Bahnstrecke von Krefeld über Willich nach Mönchengladbach. Die Strecke wurde zurückgebaut und in eine Radschellverbindung umgewandelt, eine Reaktivierung für den Schienenverkehr wird von der Stadt Krefeld abgelehnt.",
+	"statusHistory": [
+		{
+			"status": "abgelehnt",
+			"date": "2021-12-31",
+			"note": "„[Die] Reaktivierung der Strecke Krefeld - Willich - MG – Rheydt [wird] für die Aufnahme in den ÖPNV-Bedarfsplan des Landes NRW seitens der Stadt Krefeld abgelehnt.“",
+			"sourceUrl": "https://ris.krefeld.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZWph1RfG1L1AfIQyZtkB3n4tXvCG0UgMS4CSmzlT6AbR/SPNV47StnKrVie.pdf"
+		}
+	],
+	"sources": [
+		{
+			"title": "Nr. 47: Reaktivierung der Bahnstrecke Krefeld - Willich - MG -Rheydt",
+			"url": "https://ris.krefeld.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZWph1RfG1L1AfIQyZtkB3n4tXvCG0UgMS4CSmzlT6AbR/SPNV47StnKrVie.pdf"
+		},
+		{
+			"title": "Machbarkeitsstudie für die Radschnellverbindung Krefeld - Willich - Mönchengladbach",
+			"url": "https://kis.kreis-viersen.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZbtGvjKJbzdXQWgJUJ0FcjofCravy7DGGH7KXQrcULlS/Endbericht_zur_Machbarkeitsstudie.pdf"
+		},
+		{
+			"title": "SPNV-Maßnahmen, Maßnahme 47",
+			"url": "https://ris.krefeld.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZVJ52RwoIg5f8pCW8c8x5BY-P6NKdPXsQy0kQA46kVBz/SPNVMassnahmen.pdf"
+		}
+	],
+	"lastUpdated": "2021-12-31"
+}

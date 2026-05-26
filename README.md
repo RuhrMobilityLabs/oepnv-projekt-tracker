@@ -11,6 +11,12 @@ Der ÖPNV Projekt Tracker ist eine Next.js-Anwendung zur strukturierten Erfassun
 
 ## Neues ÖPNV-Projekt beitragen
 
+### 0. Editor (optional, visuelle Alternative)
+
+Öffne `/editor` im Browser, um Projekte visuell zu bearbeiten oder neu anzulegen.
+Das Formular zeigt alle Felder des Schemas an, validiert Eingaben (Daten, verknüpfte Projekte) und erzeugt eine gültige `.json`-Datei zum Herunterladen.
+Lege die Datei anschließend in `projects/` ab oder ersetze eine bestehende Datei.
+
 ### 1. Neue Projektdatei anlegen
 
 Lege in `projects/` eine neue JSON-Datei an, z. B.:

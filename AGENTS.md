@@ -16,6 +16,7 @@ Source code and commits are in English; the web app UI is in German.
 - `src/` — Application source
   - `src/app/` — Next.js App Router pages
   - `src/app/projects/[id]/` — Dynamic project detail pages
+  - `src/app/editor/` — Visual editor page for creating/editing project JSON files (client component with `"use client"`)
   - `src/app/robots.ts` — robots.txt (generated at build time)
   - `src/app/sitemap.ts` — sitemap.xml (generated at build time)
   - `src/config/` — Config for project types, statuses, transport types

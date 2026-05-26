@@ -23,6 +23,12 @@ export default function Footer() {
         >
           Warum Bahnstrecken?
         </Link>
+        <Link
+          href="/editor"
+          className="text-sm underline text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+        >
+          Projekt Editor
+        </Link>
         {githubUrl && (
           <a
             href={githubUrl}

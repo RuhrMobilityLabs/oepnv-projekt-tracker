@@ -1,0 +1,96 @@
+{
+  "id": "neubau-sfs-bielefeld-hannover",
+  "name": "Neubau- und Schnellfahrstrecke Bielefeld–Hannover",
+  "projectType": "neubau",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Bielefeld",
+    "Herford",
+    "Bad Salzuflen",
+    "Minden",
+    "Wunstorf",
+    "Hannover"
+  ],
+  "states": [
+    "nordrhein-westfalen",
+    "niedersachsen"
+  ],
+  "operators": [
+    "DB InfraGO"
+  ],
+  "description": "Geplante Neu- und Ausbaustrecke zwischen Bielefeld und Hannover im Rahmen des Deutschlandtakts. Ziel ist eine Fahrzeit von 31 Minuten zwischen beiden Städten sowie die deutliche Kapazitätssteigerung auf der hoch ausgelasteten Ost-West-Achse Berlin–Ruhrgebiet. Geplant sind zwei zusätzliche Gleise sowie abschnittsweise Neubaustrecken für den schnellen Fernverkehr und die Entlastung des Güterverkehrs. Nach Prüfung von zwölf Varianten konzentriert sich die Planung seit Ende 2025 auf zwei Hauptvarianten (nördlich Herford bzw. südlich Bad Salzuflen). Das Projekt ist zwar regional politisch umstritten, insbesondere wegen Flächenverbrauch, Umweltfolgen und Tunnelbau, stärkt allerdings die Verlagerung von Verkehr von der Straße und dem Luftverkehr auf die klimafreundliche Schiene und trägt zur wirtschaftlichen Entwicklung der Region bei.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2018",
+      "note": "Aufnahme der Zielfahrzeit Hannover–Bielefeld (31 Minuten) in die Deutschlandtakt-Planungen"
+    },
+    {
+      "status": "geplant",
+      "date": "2020",
+      "note": "Start vertiefter Variantenuntersuchungen für Neu- und Ausbaustrecken"
+    },
+    {
+      "status": "geplant",
+      "date": "2025-12-05",
+      "note": "DB InfraGO reduziert die Variantenprüfung von zwölf auf zwei Hauptvarianten (Variante 3 und 4)",
+      "sourceUrl": "https://www.deutschebahn.com/de/presse/presse-regional/pr-hamburg-de/aktuell/presseinformationen-regional/Bahnprojekt-Hannover-Bielefeld-Zwei-Streckenvarianten-in-der-engsten-Auswahl-13693550"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-01",
+      "note": "Beginn regionaler Informationsmärkte und Bürgerdialoge zu den verbleibenden Varianten",
+      "sourceUrl": "https://www.deutschebahn.com/de/presse/presse-regional/pr-hamburg-de/aktuell/presseinformationen-regional/Bahnprojekt-Hannover-Bielefeld-Zwei-Streckenvarianten-in-der-engsten-Auswahl-13693550"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-02-28",
+      "note": "Aktualisierte Unterlagen zu Variante 3 veröffentlichen Umfahrung Wunstorf als zentralen Engpassbeseitiger",
+      "sourceUrl": "https://neubaustrecke-bielefeld-hannover.de/willkommen/varianten/bielefeld-hannover-variante03/"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-05-17",
+      "note": "Weitere Proteste und Demonstrationen gegen die geplante ICE-Trasse im Raum Schaumburg und OWL",
+      "sourceUrl": "https://www.nabu-bielefeld.de/positionen-presse/ice-trasse-bielefeld-hannover/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bahnprojekt Hannover-Bielefeld: Zwei Streckenvarianten in der engsten Auswahl",
+      "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-hamburg-de/aktuell/presseinformationen-regional/Bahnprojekt-Hannover-Bielefeld-Zwei-Streckenvarianten-in-der-engsten-Auswahl-13693550",
+      "date": "2025-12-05"
+    },
+    {
+      "title": "Neubaustrecke Bielefeld–Hannover – Projektübersicht",
+      "url": "https://neubaustrecke-bielefeld-hannover.de/willkommen/",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Variante 3 – Neubaustrecke Bielefeld–Hannover",
+      "url": "https://neubaustrecke-bielefeld-hannover.de/willkommen/varianten/bielefeld-hannover-variante03/",
+      "date": "2026-02-28"
+    },
+    {
+      "title": "Das Projekt Hannover–Bielefeld",
+      "url": "https://www.hannover-bielefeld.de/infomarkt/projekt"
+    },
+    {
+      "title": "Neubau Strecke Hannover-Bielefeld: Nur noch zwei Optionen",
+      "url": "https://www.zeit.de/news/2025-12/05/neubau-strecke-hannover-bielefeld-nur-noch-zwei-optionen",
+      "date": "2025-12-05"
+    },
+    {
+      "title": "NABU Bielefeld – Proteste gegen die ICE-Planung",
+      "url": "https://www.nabu-bielefeld.de/positionen-presse/ice-trasse-bielefeld-hannover/",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "ICE-Trasse Hannover-Bielefeld – Nachrichtenübersicht",
+      "url": "https://www.nw.de/themen/nachrichten/zwischen_weser_und_rhein/ice-trasse-hannover-bielefeld"
+    }
+  ],
+  "lastUpdated": "2026-05-26"
+}

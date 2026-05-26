@@ -1,0 +1,75 @@
+{
+  "id": "neubau-seilbahn-wanne-eickel",
+  "name": "Seilbahn Wanne-Eickel – Blumenthal-Areal",
+  "projectType": "neubau",
+  "transportTypes": [
+    "seilbahn"
+  ],
+  "cities": [
+    "Herne",
+    "Wanne-Eickel"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "HCR – Straßenbahn Herne-Castrop-Rauxel GmbH",
+    "Transdev",
+    "Herner Seilbahngesellschaft mbH"
+  ],
+  "description": "Geplante urbane Seilbahn zwischen dem Hauptbahnhof Wanne-Eickel und dem ehemaligen Zechengelände Blumenthal XI in Herne. Die rund einen Kilometer lange Verbindung soll das entstehende High- und Green-Tech-Quartier „Blumenthal“ direkt an den regionalen und überregionalen Bahnverkehr anbinden. Die Seilbahn wird vollständig in den öffentlichen Nahverkehr des VRR integriert und kann unter anderem mit dem Deutschlandticket genutzt werden. Das Projekt gilt als Pilotvorhaben für urbane Seilbahnen in Deutschland und soll zur nachhaltigen Mobilität, zur Reduzierung des Autoverkehrs sowie zur Entwicklung des neuen Technologie- und Arbeitsquartiers beitragen. Die Fahrzeit soll etwa dreieinhalb Minuten betragen. Die geplanten Kosten liegen bei rund 33 Millionen Euro, wobei eine Förderung von bis zu 95 Prozent möglich ist.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2022",
+      "note": "Vorstellung erster Konzepte zur Seilbahnanbindung des Blumenthal-Areals"
+    },
+    {
+      "status": "antrag",
+      "date": "2025-11-12",
+      "note": "Aufnahme der Seilbahn in den ÖPNV-Bedarfsplan des Landes NRW; Förderfähigkeit grundsätzlich bestätigt",
+      "sourceUrl": "https://www.herne.de/Meldungen/News-Detailansicht_280387.html"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-02-19",
+      "note": "Gründung der Herner Seilbahngesellschaft und Vorstellung der Marke „Blumenthal Airline“",
+      "sourceUrl": "https://www.hcr-herne.de/pressemeldungen/herner-seilbahngesellschaft-geht-als-blumenthal-airline-an-den-start/"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-02-23",
+      "note": "Transdev und HCR bestätigen gemeinsame Betriebsgesellschaft für Deutschlands erste in den ÖPNV integrierte urbane Seilbahn",
+      "sourceUrl": "https://www.transdev.de/de/willkommen/aktuelles/transdev-gruendet-mit-stadt-herne-seilbahngesellschaft-fuer-blumenthal-airline"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Techno Ruhr International in Herne",
+      "url": "https://www.dba-bau.com/projekte/techno-ruhr-international-in-herne/"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Wanne-Eickel Hauptbahnhof",
+      "coordinates": {
+        "lat": 51.532,
+        "lng": 7.165
+      },
+      "status": "existing"
+    },
+    {
+      "name": "Blumenthal XI",
+      "coordinates": {
+        "lat": 51.5285,
+        "lng": 7.1768
+      },
+      "status": "planned"
+    }
+  ],
+  "coordinates": {
+    "lat": 51.5285,
+    "lng": 7.1768
+  },
+  "lastUpdated": "2026-02-23"
+}

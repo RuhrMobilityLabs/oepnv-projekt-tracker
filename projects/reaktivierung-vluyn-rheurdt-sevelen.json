@@ -1,0 +1,73 @@
+{
+  "id": "reaktivierung-vluyn-rheurdt-sevelen",
+  "name": "Idee zur Reaktivierung der Strecke Vluyn – Rheurdt – Sevelen (Moers – Geldern)",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Moers",
+    "Neukirchen-Vluyn",
+    "Rheurdt",
+    "Issum",
+    "Sevelen",
+    "Geldern"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "VRR",
+    "NIAG",
+    "DB InfraGO",
+    "Kreis Kleve"
+  ],
+  "description": "Idee zur Reaktivierung der ehemaligen Nebenbahn Vluyn – Rheurdt – Sevelen im Kreis Kleve als Teil eines erweiterten SPNV-Konzepts am linken Niederrhein. Ziel ist die bessere Anbindung ländlicher Räume an den Knoten Moers sowie die Reduktion des motorisierten Individualverkehrs. Die bestehende Trasse ist weitgehend erhalten, jedoch derzeit nicht vollständig für den Personenverkehr nutzbar. Das Projekt befindet sich in der Prüf- und Konzeptphase ohne konkrete Bauentscheidung. Zudem bestände die Möglichkeit einer Verlängerung ab Sevelen bis Geldern für eine durchgehende Verbindung von Duisburg, über Moers, Neukirchen-Vluyn, Rheurdt und Sevelen nach Geldern.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2018",
+      "note": "Erste kommunale Diskussionen zur Reaktivierung von Bahnstrecken im Raum Neukirchen-Vluyn und Rheurdt"
+    },
+    {
+      "status": "antrag",
+      "date": "2022",
+      "note": "Aufnahme von Reaktivierungsüberlegungen in regionale ÖPNV-Planung (VRR / Kreis Kleve)"
+    },
+    {
+      "status": "antrag",
+      "date": "2025-01-13",
+      "note": "Antrag zur Haushaltsberatung im Kreis Kleve für Machbarkeitsstudie und Untersuchungen zur Reaktivierung",
+      "sourceUrl": "https://www.gruppe-vwg-kreis-kleve.de/gruppe-vwg/aktuelles/meldungen/4405348568.php"
+    },
+    {
+      "status": "antrag",
+      "date": "2025-01-13",
+      "note": "Kreistagsantrag über 20.000 € für Voruntersuchungen und Potentialanalyse eingereicht",
+      "sourceUrl": "https://kis.kreis-kleve.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZdU_sfKZHtw8RGD0o_rSROpEZCCPkmjQCr8-KjVmTfG2/Anlage_31_2025.01.13_VWG_Bahnstrecke_Vluyn_Rheurdt_Sevelen.pdf"
+    },
+    {
+      "status": "idee",
+      "date": "2025-02-20",
+      "note": "Zwischen Moers und Vluyn ist noch eine eingleisige Strecke vorhanden, für die bereits eine Reaktivierung vorgesehen ist. Der Streckenabschnitt von Vluyn über Rheurdt bis Oermten wurde in der Vergangenheit zurückgebaut. Der Streckenabschnitt Oermten - Geldern als Teil der Strecke Geldern - Kamp-Lintfort wurde vor dem Ersten Weltkrieg begonnen, aber niemals vollendet. - Seite 22/40",
+      "sourceUrl": "https://kis.kreis-kleve.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZX2_b-k-qsBbD1qjSDg0oVy4pxT22lrEm1MuEcavMAqn/Oeffentliche_Niederschrift_Ausschuss_fuer_Bauen-_Entsorgung-_Verkehr_und_Infrastrukturplanung_20.02.2025.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kreistagsvorlage Reaktivierung Vluyn–Rheurdt–Sevelen (PDF)",
+      "url": "https://kis.kreis-kleve.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZdU_sfKZHtw8RGD0o_rSROpEZCCPkmjQCr8-KjVmTfG2/Anlage_31_2025.01.13_VWG_Bahnstrecke_Vluyn_Rheurdt_Sevelen.pdf",
+      "date": "2025-01-13"
+    },
+    {
+      "title": "Niederschrift der 15. Sitzung des Ausschusses für Bauen, Entsorgung, Verkehr und Infrastrukturplanung (Kreis Kleve)",
+      "url": "https://kis.kreis-kleve.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZX2_b-k-qsBbD1qjSDg0oVy4pxT22lrEm1MuEcavMAqn/Oeffentliche_Niederschrift_Ausschuss_fuer_Bauen-_Entsorgung-_Verkehr_und_Infrastrukturplanung_20.02.2025.pdf",
+      "date": "2025-02-20"
+    
+    }
+  ],
+  "relatedProjects": [
+    "reaktivierung-moers-neukirchen-vluyn"
+  ],
+  "lastUpdated": "2026-05-26"
+}

@@ -1,0 +1,150 @@
+{
+  "id": "reaktivierung-moers-neukirchen-vluyn",
+  "name": "Reaktivierung Strecke Moers–Neukirchen-Vluyn",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Moers",
+    "Neukirchen-Vluyn"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "VRR",
+    "DB InfraGO"
+  ],
+  "description": "Geplante Reaktivierung der ehemaligen Bahnstrecke zwischen Moers und Neukirchen-Vluyn für den regelmäßigen Personennahverkehr im Rahmen der regionalen ÖPNV-Entwicklung (u. a. VRR-Zielnetz 2040). Die Strecke soll als Teil einer erweiterten 'Niederrheinbahn' wieder in Betrieb genommen werden und neue Direktverbindungen über Moers Richtung Duisburg und das Ruhrgebiet ermöglichen. Geplant sind mehrere neue Haltepunkte in Moers (u. a. Hülsdonk, Altstadt, Bildungscampus) sowie in Neukirchen und Vluyn. Ziel ist die Verbesserung der regionalen Erreichbarkeit, die Entlastung der Straßen (A40/A42) und die bessere Anbindung wachsender Wohn- und Gewerbegebiete. Die bestehende Trasse ist weitgehend erhalten, jedoch sind bauliche Anpassungen (Brücken, Kreuzungen, mögliche Teilneutrassierungen) erforderlich.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2018",
+      "note": "Erste politische Beschlüsse zur Prüfung der Reaktivierung im Stadtrat Neukirchen-Vluyn"
+    },
+    {
+      "status": "antrag",
+      "date": "2020",
+      "note": "Aufnahme in regionale Planungs- und Prüfprozesse (VRR / NVN / Land NRW ÖPNV-Bedarfsplanung)"
+    },
+    {
+      "status": "antrag",
+      "date": "2022",
+      "note": "VRR meldet Projekt zur weiteren Machbarkeitsprüfung und Vorplanung an"
+    },
+    {
+      "status": "geplant",
+      "date": "2023-05-25",
+      "note": "Fortlaufende Diskussion im VRR-Zielnetz 2040; keine finale Finanzierungs- oder Baubeschlusslage erreicht",
+      "sourceUrl": "https://www.nrz.de/lokales/moers-und-umland/article404388441/bahn-reaktivierung-das-sind-haltepunkte-in-neukirchen-vluyn.html"
+    },
+    {
+      "status": "antrag",
+      "date": "2025-07-09",
+      "note": "Kommunale Initiativen fordern Beschleunigung der standardisierten Bewertung und Bauwerksprüfung (u. a. Moerser Knotenbereich)",
+      "sourceUrl": "https://spd-neukirchen-vluyn.de/spd-setzt-sich-fuer-reaktivierung-der-niederrheinbahn-ein/"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-04",
+      "note": "Aktuelle politische Debatte über konkrete Haltepunkte und mögliche Trassenführung im Moerser Stadtgebiet; Projekt bleibt in der Bewertungsphase",
+      "sourceUrl": "https://lokaleblicke.com/die-gleisbesetzer-der-spd-aus-neukirchen-vluyn-und-moers-fordern-die-reaktivierung-der-bahnstrecke/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bahn-Reaktivierung: Haltepunkte Moers–Neukirchen-Vluyn im VRR-Konzept",
+      "url": "https://www.nrz.de/lokales/moers-und-umland/article404388441/bahn-reaktivierung-das-sind-haltepunkte-in-neukirchen-vluyn.html",
+      "date": "2023-05-25"
+    },
+    {
+      "title": "VRR Zielnetz 2040 – Reaktivierungspläne Niederrheinbahn",
+      "url": "https://www.nahverkehr-nrw.de/bahn-reaktivierungsplan-moers-neukirchen-vluyn/",
+      "date": "2020-07-02"
+    },
+    {
+      "title": "SPD fordert Reaktivierung der Niederrheinbahn",
+      "url": "https://spd-neukirchen-vluyn.de/spd-setzt-sich-fuer-reaktivierung-der-niederrheinbahn-ein/",
+      "date": "2025-07-09"
+    },
+    {
+      "title": "Kritik und Diskussion zur Reaktivierung Moers–Neukirchen-Vluyn",
+      "url": "https://nahverkehr-nrw.de/kritik-an-reaktivierungsplan-moers-neukirchen-vluyn/",
+      "date": "2020-07-03"
+    },
+    {
+      "title": "Lokale Debatte zu Haltepunkten und Reaktivierungsplänen",
+      "url": "https://lokaleblicke.com/die-gleisbesetzer-der-spd-aus-neukirchen-vluyn-und-moers-fordern-die-reaktivierung-der-bahnstrecke/",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "VRR: Zielnetz 2040",
+      "url": "https://www.vrr.de/fileadmin/user_upload/pdf/magazin/2023_Artikel/Zielnetz_2040.pdf"
+    },
+    {
+      "title": "VRR und regionale ÖPNV-Planung Niederrhein",
+      "url": "https://www.vrr.de/",
+      "date": "2026"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Moers Bahnhof",
+      "coordinates": {
+        "lat": 51.4517,
+        "lng": 6.6286
+      },
+      "status": "existing"
+    },
+    {
+      "name": "Moers-Hülsdonk",
+      "coordinates": {
+        "lat": 51.459,
+        "lng": 6.640
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Moers-Altstadt",
+      "coordinates": {
+        "lat": 51.453,
+        "lng": 6.624
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Neukirchen (NV)",
+      "coordinates": {
+        "lat": 51.459,
+        "lng": 6.553
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Vluyn",
+      "coordinates": {
+        "lat": 51.446,
+        "lng": 6.561
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Dicksche Heide (VRR-Zielkonzept)",
+      "coordinates": {
+        "lat": 51.463,
+        "lng": 6.600
+      },
+      "status": "planned"
+    }
+  ],
+  "coordinates": {
+    "lat": 51.455,
+    "lng": 6.60
+  },
+  "relatedProjects": [
+    "reaktivierung-vluyn-rheurdt-sevelen",
+    "reaktivierung-moers-kamp-lintfort"
+  ],
+  "lastUpdated": "2026-05-26"
+}

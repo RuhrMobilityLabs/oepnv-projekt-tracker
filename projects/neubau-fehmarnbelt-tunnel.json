@@ -1,0 +1,146 @@
+{
+  "id": "neubau-fehmarnbelt-tunnel",
+  "name": "Fehmarnbelttunnel und deutsche Hinterlandanbindung",
+  "projectType": "neubau",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Hamburg",
+    "Lübeck",
+    "Oldenburg in Holstein",
+    "Puttgarden",
+    "Rødbyhavn"
+  ],
+  "states": [
+    "schleswig-holstein",
+    "hamburg"
+  ],
+  "operators": [
+    "Femern A/S",
+    "DB InfraGO",
+    "Sund & Bælt"
+  ],
+  "description": "Der Fehmarnbelttunnel ist ein 18 Kilometer langer kombinierter Straßen- und Eisenbahntunnel zwischen Puttgarden (Deutschland) und Rødbyhavn (Dänemark). Das Projekt ist Teil des europäischen TEN-V-Scandinavian-Mediterranean-Korridors. Parallel entsteht die deutsche Hinterlandanbindung mit Elektrifizierung, Zweigleisigkeit und teilweise Neubau der Bahnstrecke Lübeck-Puttgarden sowie dem Fehmarnsundtunnel. Ziel ist eine deutliche Fahrzeitverkürzung zwischen Hamburg und Kopenhagen sowie die Verlagerung von Güterverkehr auf die Schiene.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2008",
+      "note": "Staatsvertrag zwischen Deutschland und Dänemark zur festen Fehmarnbeltquerung"
+    },
+    {
+      "status": "geplant",
+      "date": "2020",
+      "note": "Baubeginn des Fehmarnbelttunnels auf dänischer Seite"
+    },
+    {
+      "status": "im_bau",
+      "date": "2022",
+      "note": "Beginn größerer Bauarbeiten an der deutschen Hinterlandanbindung und Sperrung der Bahnstrecke Lübeck–Puttgarden"
+    },
+    {
+      "status": "im_bau",
+      "date": "2026-01-16",
+      "note": "Eröffnung des Fehmarnbelttunnels verschiebt sich voraussichtlich von 2029 auf 2031",
+      "sourceUrl": "https://www.zeit.de/news/2026-01/16/eroeffnung-des-fehmarnbelt-tunnels-verschiebt-sich-bis-2031"
+    },
+    {
+      "status": "im_bau",
+      "date": "2026-05-07",
+      "note": "Erstes Tunnelelement erfolgreich im Fehmarnbelt abgesenkt und mit Tunnelportal verbunden",
+      "sourceUrl": "https://www.heise.de/en/news/First-segment-of-the-Fehmarnbelt-Tunnel-is-in-place-11285737.html"
+    },
+    {
+      "status": "im_bau",
+      "date": "2026-05-17",
+      "note": "Femern A/S bestätigt Plan einer gestuften Inbetriebnahme: Straßentunnel vor Eisenbahntunnel wegen Verzögerungen der deutschen Schienenanbindung",
+      "sourceUrl": "https://femern.com/press/news/the-fehmarnbelt-tunnel-will-open-in-two-stages/"
+    },
+    {
+      "status": "im_bau",
+      "date": "2026-05-21",
+      "note": "Dänische Projektgesellschaft bestätigt weiterhin laufende Produktion der Tunnelelemente; 88 Elemente stehen noch aus",
+      "sourceUrl": "https://www.zeit.de/news/2026-05/21/wie-die-tunnelbauarbeiten-am-fehmarnbelt-weitergehen"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Femern A/S – Offizielle Projektseite",
+      "url": "https://femern.com/"
+    },
+    {
+      "title": "Eröffnung des Fehmarnbelt-Tunnels verschiebt sich bis 2031",
+      "url": "https://www.zeit.de/news/2026-01/16/eroeffnung-des-fehmarnbelt-tunnels-verschiebt-sich-bis-2031",
+      "date": "2026-01-16"
+    },
+    {
+      "title": "The Fehmarnbelt Tunnel will open in two stages",
+      "url": "https://femern.com/press/news/the-fehmarnbelt-tunnel-will-open-in-two-stages/",
+      "date": "2026-05-17"
+    },
+    {
+      "title": "Wie die Tunnelbauarbeiten am Fehmarnbelt weitergehen",
+      "url": "https://www.zeit.de/news/2026-05/21/wie-die-tunnelbauarbeiten-am-fehmarnbelt-weitergehen",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "First segment of the Fehmarnbelt Tunnel is in place",
+      "url": "https://www.heise.de/en/news/First-segment-of-the-Fehmarnbelt-Tunnel-is-in-place-11285737.html",
+      "date": "2026-05-07"
+    },
+    {
+      "title": "Bau des Fehmarnbelt-Tunnels: Erster Abschnitt vor Absenkung",
+      "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/bau-des-fehmarnbelt-tunnels-erster-abschnitt-vor-absenkung-3788045",
+      "date": "2026-04-02"
+    },
+    {
+      "title": "Fehmarn: Roads may open before trains",
+      "url": "https://www.fehmarnbusiness.com/news/fehmarn-roads-may-open-before-trains/5142011",
+      "date": "2026-01-13"
+    },
+    {
+      "title": "Nur wenige Einwendungen gegen Pläne für Sundquerung",
+      "url": "https://www.welt.de/article68e63d1695122ee99c5cda91",
+      "date": "2025-10-02"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Hamburg Hauptbahnhof",
+      "coordinates": {
+        "lat": 53.5526,
+        "lng": 10.0067
+      },
+      "status": "existing"
+    },
+    {
+      "name": "Lübeck Hauptbahnhof",
+      "coordinates": {
+        "lat": 53.867,
+        "lng": 10.67
+      },
+      "status": "existing"
+    },
+    {
+      "name": "Puttgarden",
+      "coordinates": {
+        "lat": 54.5004,
+        "lng": 11.2262
+      },
+      "status": "existing"
+    },
+    {
+      "name": "Rødbyhavn",
+      "coordinates": {
+        "lat": 54.6548,
+        "lng": 11.3515
+      },
+      "status": "planned"
+    }
+  ],
+  "coordinates": {
+    "lat": 54.5,
+    "lng": 11.24
+  },
+  "lastUpdated": "2026-05-21"
+}

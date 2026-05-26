@@ -1,0 +1,78 @@
+{
+  "id": "reaktivierung-moers-kamp-lintfort",
+  "name": "Reaktivierung Bahnstrecke Moers–Kamp-Lintfort (Niederrheinbahn)",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Moers",
+    "Kamp-Lintfort"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "Niederrheinbahn GmbH",
+    "VRR",
+    "Deutsche Bahn (DB InfraGO)",
+    "Stadt Kamp-Lintfort"
+  ],
+  "description": "Reaktivierung der ehemaligen Zechen- und Güterbahn zwischen Moers-Rheinkamp und Kamp-Lintfort für den regelmäßigen Schienenpersonennahverkehr. Die rund 10 Kilometer lange Strecke wird im Rahmen des Niederrheinbahn-Projekts wieder für den SPNV hergerichtet und in das regionale Netz des VRR integriert. Ziel ist eine direkte Anbindung Kamp-Lintforts an das Ruhrgebiet über Moers sowie die langfristige Verlängerung der Linie RE44. Die Strecke wurde bereits 2020 im Rahmen eines Vorlaufbetriebs teilweise für den Personenverkehr genutzt und befindet sich aktuell in der baulichen Umsetzung inklusive Neubau von Haltepunkten und modernem Stellwerk in Rheinkamp.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2015",
+      "note": "Erste konkrete Überlegungen zur Reaktivierung der Bahnstrecke im VRR-Raum"
+    },
+    {
+      "status": "antrag",
+      "date": "2018",
+      "note": "Projekt wird Bestandteil regionaler SPNV-Ausbauplanungen"
+    },
+    {
+      "status": "antrag",
+      "date": "2020-02-12",
+      "note": "Vorlaufbetrieb zur Landesgartenschau Kamp-Lintfort (Wochenendverkehr Moers–Kamp-Lintfort)",
+      "sourceUrl": "https://www.vrr.de/de/aktuelles/newsroom/reaktivierung-der-niederrheinbahn/"
+    },
+    {
+      "status": "geplant",
+      "date": "2022-04-26",
+      "note": "Förderzusage des Landes NRW für Infrastrukturmaßnahmen und Stellwerk Rheinkamp",
+      "sourceUrl": "https://www.rvr.ruhr/news/startseite-news/news/17-millionen-euro-fuer-reaktivierung-der-niederrheinbahn-zwischen-moers-und-kamp-lintfort/"
+    },
+    {
+      "status": "im_bau",
+      "date": "2025-03-12",
+      "note": "Planfeststellungsverfahren für Abschnitt Moers-Rheinkamp – Kamp-Lintfort gestartet",
+      "sourceUrl": "https://www.brd.nrw.de/presse/pressemitteilungen/Reaktivierung-der-Niederrheinbahn-von-Moers-Rheinkamp-bis-Kamp-Lintfort"
+    },
+    {
+      "status": "geplant",
+      "date": "2026",
+      "note": "Geplanter Beginn des Regelbetriebs der Linie RE44 zwischen Bottrop/Duisburg und Kamp-Lintfort"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kamp-Lintfort Bahnreaktivierung Projektseite",
+      "url": "https://www.kamp-lintfort.de/de/planung/niederrheinbahn/",
+      "date": "2026"
+    },
+    {
+      "title": "Niederrhein-Münsterland-Netz – VRR SPNV-Planung",
+      "url": "https://www.vrr.de/der-vrr/spnv-aufgabentraegerschaft/niederrhein-muensterland-netz/",
+      "date": "2026"
+    },
+    {
+      "title": " Planfeststellungsverfahren nach § 18 Allgemeines Eisenbahngesetz (AEG) in Verbindung mit §§ 73 ff Verwaltungsverfahrensgesetz NRW zur Reaktivierung der Niederrheinbahn von Moers-Rheinkamp bis Kamp-Lintfort",
+      "date": "2026-01-12",
+      "url": "https://www.uvp-verbund.de/trefferanzeige?docuuid=5c3d47ac-4a16-4523-a20e-9bf4c6278b89&q=kamp-lintfort"
+    }
+  ],
+  "relatedProjects": [
+    "reaktivierung-moers-neukirchen-vluyn"
+  ],
+  "lastUpdated": "2026-05-26"
+}

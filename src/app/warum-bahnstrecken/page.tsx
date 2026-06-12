@@ -85,6 +85,24 @@ export default function WhyRailLinesPage() {
 
           <section className="space-y-3 rounded-2xl border border-border bg-background/50 p-4 sm:p-5">
             <h2 className="flex items-center gap-2 text-sm font-semibold text-foreground">
+              <Rocket className="h-4 w-4 text-primary" />
+              <span>Unabhängiger von Öl und fossilen Energieträgern</span>
+            </h2>
+            <div className="space-y-3 text-sm leading-6 text-foreground/90 sm:text-base sm:leading-7">
+              <p>
+                Ein starker ÖPNV und SPNV machen Mobilität unabhängiger von fossilen Energieträgern wie Öl. Während Autos, Busse mit Verbrennungsmotor und viele Güterverkehre direkt auf Diesel oder Benzin angewiesen sind, kann die Bahn mit Strom betrieben werden.
+              </p>
+              <p>
+                Das ist ein wichtiger Vorteil für Versorgungssicherheit, Preisstabilität und strategische Unabhängigkeit. Wer auf Schiene setzt, macht sich weniger anfällig für schwankende Ölpreise, geopolitische Krisen und importabhängige Energieträger.
+              </p>
+              <p>
+                ÖPNV und SPNV sind damit eine souveräne Art zu reisen: planbar, resilient und deutlich weniger abhängig von fossilen Ressourcen.
+              </p>
+            </div>
+          </section>
+
+          <section className="space-y-3 rounded-2xl border border-border bg-background/50 p-4 sm:p-5">
+            <h2 className="flex items-center gap-2 text-sm font-semibold text-foreground">
               <CircleDollarSign className="h-4 w-4 text-primary" />
               <span>Geringere Kosten für Gesellschaft und Infrastruktur</span>
             </h2>

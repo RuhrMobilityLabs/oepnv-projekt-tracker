@@ -1,0 +1,41 @@
+{
+  "id": "reaktivierung-rheinische-bahn-muelheim",
+  "name": "Reaktivierung Rheinische Bahn Duisburg-Mülheim",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Duisburg",
+    "Mülheim an der Ruhr"
+  ],
+  "states": [
+    "nordrhein-westfalen"
+  ],
+  "operators": [
+    "DB InfraGO"
+  ],
+  "description": "Idee zur Reaktivierung der Rheinischen Bahn für den Personenverkehr zwischen Duisburg und Mülheim an der Ruhr. Die Strecke ist derzeitig eingleisig, ohne Anbindung an den Mülheim Hbf und wird derzeit nur für Güterverkehr genutzt. Eine Reaktivierung könnte die Schienenbindung von Mülheim verbessern, die West-Ost-Verbindung des Ruhrgebietes stärken und eine zusätzliche Umleitungsroute schaffen, um die Zuverlässigkeit zu erhöhen. Für die Reaktivierung wären umfangreiche bauliche Maßnahmen erforderlich, unter anderem müssten zwei Kilometer des Radwegs RS1 verlegt werden. Die Idee wurde von der Community LiniePlus vorgeschlagen, es gibt keine offiziellen Pläne und eine Umsetzung ist eher unwahrscheinlich, obwohl die Strecke sinnvoll wäre.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2024-03-19",
+      "note": "Community-Idee von LiniePlus.",
+      "sourceUrl": "https://linieplus.de/proposal/du-neudorf-muelheim-hbf/"
+    }
+  ],
+  "relatedProjects": [],
+  "sources": [
+    {
+        "title": "DU-Neudorf – Mülheim Hbf (Eisenbahnstrecke) | LiniePlus",
+        "url": "https://linieplus.de/proposal/du-neudorf-muelheim-hbf/",
+        "date": "2024-03-19"
+    },
+    {
+        "title": "„Alles für die Katz“: Bundespläne für die Bahn durchkreuzen Weiterbau des RS1",
+        "url": "https://www.waz.de/lokales/muelheim/article411348244/zickzack-piste-statt-fahrrad-autobahn-endet-der-traum-vom-rs1-in-muelheim.html",
+        "date": "2026-03-04"
+    }
+  ],
+  "lastUpdated": "2024-03-19"
+}

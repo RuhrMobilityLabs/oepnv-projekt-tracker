@@ -15,7 +15,7 @@
   "operators": [
     "DB InfraGO"
   ],
-  "description": "Idee zur Reaktivierung der Rheinischen Bahn für den Personenverkehr zwischen Duisburg und Mülheim an der Ruhr. Die Strecke ist derzeitig eingleisig, ohne Anbindung an den Mülheim Hbf und wird derzeit nur für Güterverkehr genutzt. Eine Reaktivierung könnte die Schienenbindung von Mülheim verbessern, die West-Ost-Verbindung des Ruhrgebietes stärken und eine zusätzliche Umleitungsroute schaffen, um die Zuverlässigkeit zu erhöhen. Für die Reaktivierung wären umfangreiche bauliche Maßnahmen erforderlich, unter anderem müssten zwei Kilometer des Radwegs RS1 verlegt werden. Die Idee wurde von der Community LiniePlus vorgeschlagen, es gibt keine offiziellen Pläne und eine Umsetzung ist eher unwahrscheinlich, obwohl die Strecke sinnvoll wäre.",
+  "description": "Idee zur Reaktivierung der Rheinischen Bahn für den Personenverkehr zwischen Duisburg und Mülheim an der Ruhr. Die Strecke VzG 2324/2505 ist derzeitig eingleisig, ohne Anbindung an den Mülheim Hbf und wird derzeit nur für Güterverkehr genutzt. Eine Reaktivierung könnte die Schienenbindung von Mülheim verbessern, die West-Ost-Verbindung des Ruhrgebietes stärken und eine zusätzliche Umleitungsroute schaffen, um die Zuverlässigkeit zu erhöhen. Für die Reaktivierung wären umfangreiche bauliche Maßnahmen erforderlich, unter anderem müssten zwei Kilometer des Radwegs RS1 verlegt werden. Die Idee wurde von der Community LiniePlus vorgeschlagen, es gibt keine offiziellen Pläne und eine Umsetzung ist eher unwahrscheinlich, obwohl die Strecke sinnvoll wäre.",
   "statusHistory": [
     {
       "status": "idee",
@@ -30,6 +30,11 @@
         "title": "DU-Neudorf – Mülheim Hbf (Eisenbahnstrecke) | LiniePlus",
         "url": "https://linieplus.de/proposal/du-neudorf-muelheim-hbf/",
         "date": "2024-03-19"
+    },
+    {
+        "title": "Auf der Agenda: Reaktivierung von Eisenbahnstrecken (Seite 18, VzG 2324) | Allianz pro Schiene",
+        "url": "https://www.allianz-pro-schiene.de/wp-content/uploads/2024/10/reaktivierung-von-eisenbahnstrecken_vdv_2024.pdf",
+        "date": "2026-10-01"
     },
     {
         "title": "„Alles für die Katz“: Bundespläne für die Bahn durchkreuzen Weiterbau des RS1",

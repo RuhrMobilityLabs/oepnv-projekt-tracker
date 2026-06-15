@@ -6,6 +6,7 @@ import { STATUS_CONFIG } from "@/config/status";
 import { formatLocalDate } from "@/lib/formatDate";
 import { getLatestStatus } from "@/lib/getLatestStatus";
 import { Undo2 } from "lucide-react";
+import ProjectMapWrapper from "@/components/ProjectMapWrapper";
 
 export default function ProjectDetail({ project, projects }: { project: Project; projects?: Project[] }) {
   const lastStatus = getLatestStatus(project);
@@ -161,6 +162,16 @@ export default function ProjectDetail({ project, projects }: { project: Project;
             )}
           </div>
         </div>
+
+        {(project.coordinates || (project.stations && project.stations.length > 0)) && (
+          <div className="px-4 pb-4 sm:px-6 sm:pb-6">
+            <ProjectMapWrapper
+              projectName={project.name}
+              projectCoordinates={project.coordinates}
+              stations={project.stations}
+            />
+          </div>
+        )}
       </article>
     </div>
   );

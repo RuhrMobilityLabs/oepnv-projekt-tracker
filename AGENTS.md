@@ -63,6 +63,14 @@ Key fields:
 See `src/lib/schemas/projectSchema.ts` for the full schema.
 When you make changes to the projectSchema or observe changes, update this AGENTS.md as well.
 
+## Map
+
+- **Leaflet** is used for map display on project detail pages
+- `ProjectMap` (`src/components/ProjectMap.tsx`) is a client component dynamically imported with `ssr: false`
+- The map shows project coordinates and stations with popups (name + status)
+- Users must consent before OpenStreetMap tiles are loaded
+- Leaflet CSS is imported in `globals.css`
+
 ## Style
 
 - Use Tailwind CSS for all styling

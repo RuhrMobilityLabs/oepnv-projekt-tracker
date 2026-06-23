@@ -1,0 +1,44 @@
+{
+	"id": "neubau-strassenbahn-042-willich-krefeld",
+	"name": "Neubau Straßenbahnanbindung Willich (Verlängerung Linie 042 von Krefeld)",
+	"projectType": "neubau",
+	"transportTypes": [
+		"stadtbahn"
+	],
+	"cities": [
+		"Krefeld",
+		"Willich"
+	],
+	"states": [
+		"nordrhein-westfalen"
+	],
+	"operators": [
+		"SWK Mobil"
+	],
+	"description": "Der Willicher Planungsausschuss soll das Thema begleiten. Geplante Verlängerung der Straßenbahnlinie 042 von Krefeld bis Willich. Auf einer Länge von ca. 4,5 km können ca. 10.000 bis 12.000 Einwohner erschlossen werden. Es gibt zudem Bürgervorschläge zur Verlängerung der Linie 042 über Willich bis zum Schiefbahn Bf mit Anbindung an die geplante S28 für Anschlussmöglichkeiten in Richtung Neuss, Düsseldorf und Viersen.",
+	"statusHistory": [
+		{
+			"status": "idee",
+			"date": "2022-01-01",
+			"note": "Streckenlänge von ca. 4,5 km. Es können 10.000 - 12.000 Einwohner erschlossen werden.",
+			"sourceUrl": "https://ris.krefeld.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZRSy3kJS3qWAEdBDB8Uv_uOsoIpRF8oOXA_yPRz4OuDP/NVP_2022_Krefeld_V16_Final_mit_Deckblatt.pdf.pdf"
+		},
+		{
+			"status": "antrag",
+			"date": "2026-02-02",
+			"note": "",
+			"sourceUrl": "https://rp-online.de/nrw/staedte/willich/wird-strassenbahn-042-von-krefeld-bis-willich-verlaengert_aid-143235405"
+		}
+	],
+	"relatedProjects": [
+		"reaktivierung-s28-westverlaengerung-kaarst"
+	],
+	"sources": [
+		{
+			"title": "LiniePlus: Idee zur Verlängerung der 042 über Willich bis Schiefbahn Bf",
+			"url": "https://linieplus.de/proposal/verlaengerung-der-strassenbahnlinie-042-von-krefeld-bis-zum-schiefbahner-bahnhof-ueber-willich/",
+			"date": "2026-06-15"
+		}
+	],
+	"lastUpdated": "2026-02-02"
+}

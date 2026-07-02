@@ -13,6 +13,12 @@
       "date": "Vorplanung",
       "note": "Vorzugstrasse bestimmt; Nutzung der S-Bahn-Trasse mit teilweisen Gleisanpassungen und Rampenbauwerken; ca. 3 km Länge mit zwei neuen Haltestellen (Wanheimer Straße, Düsseldorf Flughafen).",
       "sourceUrl": "https://www.duesseldorf.de/amt-fuer-bruecken-tunnel-und-stadtbahnbau/stadtbahnbau/stadtbahnstrecke-u81/3-ba-flughafen-bahnhof"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-06-18",
+      "note": "Kosten-Nutzen-Verhältnis für den Bauabschnitt zwischen Flughafen-Terminal und Bahnhof ist negativ. Nun soll das Projekt U81 als Ganzes betrachetet und neu bewertet werden.",
+      "sourceUrl": "https://rp-online.de/nrw/staedte/duesseldorf/verkehr/u81-duesseldorf-verbindung-zum-flughafen-bahnhof-lohnt-sich-nicht-die-gruende_aid-150049199"
     }
   ],
   "relatedProjects": [

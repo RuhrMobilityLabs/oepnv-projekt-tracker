@@ -18,8 +18,14 @@
   "statusHistory": [
     {
       "status": "fertiggestellt",
-      "date": "2026-09-04",
-      "note": "Geplanter Betriebsstart / Premiere (Eröffnungsveranstaltung).",
+      "date": "2026-06-30",
+      "note": "Die Eröffnung der neuen Stadtbahnlinie U80/81 steht kurz bevor. Am Dienstag, 30. Juni 2026, konnte die technische Fertigstellung des ersten Bauabschnitts erfolgreich abgeschlossen werden. Die Abnahme durch die Technische Aufsichtsbehörde (TAB) ist erfolgt. Über den Sommer werden noch erforderliche Feuerwehrübungen im Rahmen des Brandschutzes sowie die Schulungen der Fahrerinnen und Fahrer der Rheinbahn vorgenommen.Die Eröffnung der neuen Stadtbahnlinie U80/81 steht kurz bevor. Am Dienstag, 30. Juni 2026, konnte die technische Fertigstellung des ersten Bauabschnitts erfolgreich abgeschlossen werden. Die Abnahme durch die Technische Aufsichtsbehörde (TAB) ist erfolgt. Über den Sommer werden noch erforderliche Feuerwehrübungen im Rahmen des Brandschutzes sowie die Schulungen der Fahrerinnen und Fahrer der Rheinbahn vorgenommen.",
+      "sourceUrl": "https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/technische-fertigstellung-des-ersten-bauabschnitts-der-u80-u81-1"
+    },
+    {
+      "status": "fertiggestellt",
+      "date": "2026-05-05",
+      "note": "Geplanter Betriebsstart am 04.09.2026 / Premiere (Eröffnungsveranstaltung).",
       "sourceUrl": "https://rp-online.de/nrw/staedte/duesseldorf/verkehr/duesseldorf-starttermin-der-u81-zum-flughafen-steht-fest_aid-147849529"
     },
     {
@@ -59,5 +65,5 @@
       "url": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-der-bau-der-u81-koennte-sich-verzoegern_aid-122391923"
     }
   ],
-  "lastUpdated": "2026-09-04"
+  "lastUpdated": "2026-06-30"
 }

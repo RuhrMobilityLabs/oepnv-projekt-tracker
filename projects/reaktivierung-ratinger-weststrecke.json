@@ -29,12 +29,23 @@
       "date": "2019-09-24",
       "note": "VRR und beteiligte Kommunen präsentieren Machbarkeitsstudie mit positivem Ergebnis; das Projekt wird als baulich machbar und finanzierbar bewertet.",
       "sourceUrl": "https://www.vrr-investitionsprojekte.de/infrastruktur/spnv/ratinger-weststrecke/"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-07-10",
+      "note": "VRR und DB unterzeichnen eine Planungsvereinbarung für die Leistungsphase 1+ nach HOAI; damit werden die nächsten Planungsschritte und eine belastbare Kosten- und Infrastrukturplanung vorbereitet.",
+      "sourceUrl": "https://www.vrr.de/aktuelles/newsroom/ratinger-weststrecke-staerkt-mobilitaet-in-der-region/"
     }
   ],
   "relatedProjects": [
     "neubau-u81-ba4-ratingen-west"
   ],
   "sources": [
+    {
+      "title": "VRR: Nächster Planungsschritt steht bevor – Projekt stärkt Mobilität und Netzresilienz in der Region",
+      "url": "https://www.vrr.de/aktuelles/newsroom/ratinger-weststrecke-staerkt-mobilitaet-in-der-region/",
+      "date": "2026-07-10"
+    },
     {
       "title": "VRR: Reaktivierung der Ratinger Weststrecke",
       "url": "https://www.vrr-investitionsprojekte.de/infrastruktur/spnv/ratinger-weststrecke/",
@@ -88,5 +99,5 @@
       "status": "planned"
     }
   ],
-  "lastUpdated": "2026-03-22"
+  "lastUpdated": "2026-07-10"
 }

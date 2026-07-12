@@ -6,7 +6,7 @@
   "cities": ["Düsseldorf","Neuss","Meerbusch"],
   "states": ["nordrhein-westfalen"],
   "operators": ["Rheinbahn"],
-  "description": "Zweiter Bauabschnitt der neuen U81: Querung des Rheins zwischen Arena/Messe Nord und Handweiser (Linksrheinische Anbindung). Entscheidung Brücke vs. Tunnel und konkrete Trassenführung werden geplant; umfangreicher Bürgerdialog und Umweltfragen begleitet das Projekt.",
+  "description": "Zweiter Bauabschnitt der neuen U81: Querung des Rheins zwischen Arena/Messe Nord und Handweiser (Linksrheinische Anbindung). Entscheidung Brücke vs. Tunnel und konkrete Trassenführung werden geplant; umfangreicher Bürgerdialog und Umweltfragen begleitet das Projekt. Im Falle der Umsetzung von den Bauabschnitten 1 bis 3, bietet die Rheinquerung eine weitere direkte Verbindung zwischen Düsseldorf und Neuss sowie eine bessere Anbindung von Duisburg nach Neuss. Wird die gesamte U81 realisiert, entsteht zudem eine direkte Verbindung zwischen Ratingen und Neuss über den Düsseldorfer Flughafen und die Messe.",
   "statusHistory": [
     {
       "status": "geplant",

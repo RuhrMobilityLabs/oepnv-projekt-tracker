@@ -6,7 +6,7 @@
   "cities": ["Düsseldorf"],
   "states": ["nordrhein-westfalen"],
   "operators": ["Rheinbahn"],
-  "description": "Dritter Bauabschnitt der neuen U81: Trassenabschnitt zwischen Flughafen-Terminal und dem Bahnhof Düsseldorf-Flughafen. Nutzung/Anpassung der vorhandenen S-Bahn-Trasse ist vorgesehen, zwei zusätzliche Haltestellen (u. a. Wanheimer Straße) sind geplant; Trassenausbau und Brückenanpassungen sind Bestandteil der Vorplanung.",
+  "description": "Dritter Bauabschnitt der neuen U81: Trassenabschnitt zwischen Flughafen-Terminal und dem Bahnhof Düsseldorf-Flughafen. Nutzung/Anpassung der vorhandenen S-Bahn-Trasse ist vorgesehen, zwei zusätzliche Haltestellen (u. a. Wanheimer Straße) sind geplant; Trassenausbau und Brückenanpassungen sind Bestandteil der Vorplanung. Dieser Abschnitt ist kritisch, da er zu einer besseren Anbindung zwischen Neuss und Duisburg beiträgt sowie bei Verlängerung bis Ratingen und bei Reaktivierung der Ratinger Weststrecke eine wichtige Ersatz- bzw. Entlastungsverbindung zum Flughafen bietet, siehe BA4.",
   "statusHistory": [
     {
       "status": "geplant",

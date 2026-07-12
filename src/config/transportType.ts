@@ -14,6 +14,7 @@ import type { TransportType } from "../lib/schemas/projectSchema";
 export interface TransportTypeConfig {
   label: string;
   color: string;
+  textColor: string;
   icon: ComponentType<{ className?: string }>;
 }
 
@@ -23,37 +24,44 @@ export const TRANSPORT_TYPE_CONFIG: Record<
 > = {
   eisenbahn: {
     label: "Eisenbahn",
-    color: "bg-slate-700 text-white",
+    color: "#334155",
+    textColor: "#ffffff",
     icon: Train,
   },
   stadtbahn: {
     label: "Stadtbahn",
-    color: "bg-orange-600 text-white",
+    color: "#ea580c",
+    textColor: "#ffffff",
     icon: TramFront,
   },
   maglev: {
     label: "Magnetschwebebahn",
-    color: "bg-gray-700 text-white",
+    color: "#374151",
+    textColor: "#ffffff",
     icon: Magnet,
   },
   bus: {
     label: "Bus",
-    color: "bg-yellow-600 text-black",
+    color: "#ca8a04",
+    textColor: "#000000",
     icon: Bus,
   },
   oberleitungsbus: {
     label: "Oberleitungsbus",
-    color: "bg-lime-700 text-white",
+    color: "#4d7c0f",
+    textColor: "#ffffff",
     icon: Bus,
   },
   seilbahn: {
     label: "Seilbahn",
-    color: "bg-pink-600 text-white",
+    color: "#db2777",
+    textColor: "#ffffff",
     icon: CableCar,
   },
   faehre: {
     label: "Fähre",
-    color: "bg-cyan-700 text-white",
+    color: "#155e75",
+    textColor: "#ffffff",
     icon: Ship,
   }
 };

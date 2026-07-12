@@ -27,15 +27,15 @@ function StatPill({
   icon: Icon,
   label,
   count,
-  className,
+  style,
 }: {
   icon?: ComponentType<{ className?: string }>;
   label: string;
   count: number;
-  className: string;
+  style: React.CSSProperties;
 }) {
   return (
-    <span className={`inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-semibold ${className}`}>
+    <span style={style} className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-semibold">
       {Icon && <Icon className="h-3.5 w-3.5" />}
       <span>{label}</span>
       <span className="rounded-full bg-background/80 px-2 py-0.5 text-[11px] font-bold tabular-nums text-foreground">
@@ -97,7 +97,7 @@ export default function ProjectOverviewStats({ projects }: { projects: Project[]
       label: config.label,
       count: projectTypeCounts[projectType] ?? 0,
       icon: config.icon,
-      className: config.color,
+      style: { backgroundColor: config.color, color: config.textColor } as React.CSSProperties,
     };
   }).filter((item) => item.count > 0);
 
@@ -109,7 +109,7 @@ export default function ProjectOverviewStats({ projects }: { projects: Project[]
       label: config.label,
       count: transportTypeCounts[transportType] ?? 0,
       icon: config.icon,
-      className: config.color,
+      style: { backgroundColor: config.color, color: config.textColor } as React.CSSProperties,
     };
   })
     .filter((item) => item.count > 0)
@@ -123,7 +123,7 @@ export default function ProjectOverviewStats({ projects }: { projects: Project[]
           label: "Unbekannt",
           count: statusCounts[status] ?? 0,
           icon: undefined,
-          className: "bg-slate-500 text-white",
+          style: { backgroundColor: "#64748b", color: "#ffffff" } as React.CSSProperties,
         };
       }
 
@@ -134,7 +134,7 @@ export default function ProjectOverviewStats({ projects }: { projects: Project[]
         label: config.label,
         count: statusCounts[status] ?? 0,
         icon: config.icon,
-        className: config.color,
+        style: { backgroundColor: config.color, color: config.textColor } as React.CSSProperties,
       };
     })
     .filter((item) => item.count > 0);
@@ -185,7 +185,7 @@ export default function ProjectOverviewStats({ projects }: { projects: Project[]
                 icon={item.icon}
                 label={item.label}
                 count={item.count}
-                className={item.className}
+                style={item.style}
               />
             ))}
           </StatCard>
@@ -201,7 +201,7 @@ export default function ProjectOverviewStats({ projects }: { projects: Project[]
                 icon={item.icon}
                 label={item.label}
                 count={item.count}
-                className={item.className}
+                style={item.style}
               />
             ))}
           </StatCard>
@@ -230,7 +230,7 @@ export default function ProjectOverviewStats({ projects }: { projects: Project[]
               icon={item.icon}
               label={item.label}
               count={item.count}
-              className={item.className}
+              style={item.style}
             />
           ))}
         </div>

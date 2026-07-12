@@ -14,6 +14,7 @@ import type { ProjectStatus } from "../lib/schemas/projectSchema";
 export interface StatusConfig {
   label: string;
   color: string;
+  textColor: string;
   icon: ComponentType<{ className?: string }>;
 }
 
@@ -23,37 +24,43 @@ export const STATUS_CONFIG: Record<
 > = {
   idee: {
     label: "Idee",
-    color: "bg-zinc-500 text-white",
+    color: "#71717a",
+    textColor: "#ffffff",
     icon: Lightbulb,
   },
 
   antrag: {
     label: "Antrag",
-    color: "bg-blue-500 text-white",
+    color: "#3b82f6",
+    textColor: "#ffffff",
     icon: FileText,
   },
 
   geplant: {
     label: "Geplant",
-    color: "bg-yellow-500 text-black",
+    color: "#eab308",
+    textColor: "#000000",
     icon: Map,
   },
 
   im_bau: {
     label: "Im Bau",
-    color: "bg-orange-500 text-white",
+    color: "#f97316",
+    textColor: "#ffffff",
     icon: Construction,
   },
 
   fertiggestellt: {
     label: "Fertiggestellt",
-    color: "bg-green-600 text-white",
+    color: "#16a34a",
+    textColor: "#ffffff",
     icon: CheckCircle,
   },
 
   abgelehnt: {
     label: "Abgelehnt",
-    color: "bg-red-600 text-white",
+    color: "#dc2626",
+    textColor: "#ffffff",
     icon: X,
   },
 };

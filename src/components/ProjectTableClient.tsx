@@ -480,7 +480,7 @@ export default function ProjectTableClient({ projects }: { projects: Project[] }
                         const config = PROJECT_TYPE_CONFIG[p.projectType as keyof typeof PROJECT_TYPE_CONFIG];
                         const Icon = config?.icon;
                         return (
-                          <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium ${config?.color || "bg-accent text-accent-foreground"}`}>
+                          <span style={{ backgroundColor: config?.color, color: config?.textColor }} className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium">
                             {Icon && <Icon className="h-3.5 w-3.5" />}
                             {config?.label || p.projectType}
                           </span>
@@ -493,7 +493,7 @@ export default function ProjectTableClient({ projects }: { projects: Project[] }
                           const config = TRANSPORT_TYPE_CONFIG[transport as keyof typeof TRANSPORT_TYPE_CONFIG];
                           const Icon = config?.icon;
                           return (
-                            <span key={transport} className={`inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 text-[11px] font-medium ${config?.color || "bg-surface text-foreground"}`}>
+                            <span key={transport} style={{ backgroundColor: config?.color, color: config?.textColor }} className="inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 text-[11px] font-medium">
                               {Icon && <Icon className="h-3 w-3" />}
                               {config?.label || transport}
                             </span>
@@ -515,7 +515,7 @@ export default function ProjectTableClient({ projects }: { projects: Project[] }
                         const config = STATUS_CONFIG[lastStatus as keyof typeof STATUS_CONFIG];
                         const Icon = config?.icon;
                         return (
-                          <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold ${config?.color || "bg-primary/10 text-primary"}`}>
+                          <span style={{ backgroundColor: config?.color, color: config?.textColor }} className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold">
                             {Icon && <Icon className="h-3.5 w-3.5" />}
                             {config?.label || lastStatus}
                           </span>

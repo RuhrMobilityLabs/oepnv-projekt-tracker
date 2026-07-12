@@ -66,7 +66,7 @@ export default function OverviewMap({ projects }: OverviewMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
   const markerMapRef = useRef<Map<string, L.Marker>>(new Map());
-  const overlayRef = useRef<HTMLDivElement>(null);
+  const overlayRef = useRef<HTMLAnchorElement>(null);
   const [consented, setConsented] = useState(false);
   const [hoveredProject, setHoveredProject] = useState<Project | null>(null);
   const [clickedProject, setClickedProject] = useState<Project | null>(null);

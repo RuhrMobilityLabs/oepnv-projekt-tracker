@@ -49,9 +49,10 @@
       "sourceUrl": "https://www.brd.nrw.de/presse/pressemitteilungen/Reaktivierung-der-Niederrheinbahn-von-Moers-Rheinkamp-bis-Kamp-Lintfort"
     },
     {
-      "status": "geplant",
-      "date": "2026",
-      "note": "Geplanter Beginn des Regelbetriebs der Linie RE44 zwischen Bottrop/Duisburg und Kamp-Lintfort"
+      "status": "im_bau",
+      "date": "2026-06-30",
+      "note": "Die Bezirksregierung Düsseldorf hat grünes Licht für den ersten Bauabschnitt der Niederrheinbahn gegeben. Die Strecke führt von Moers-Rheinkamp bis Kamp-Lintfort. Wann die ersten Züge rollen, ist aber weiter offen.",
+      "sourceUrl": "https://rp-online.de/nrw/staedte/kamp-lintfort/niederrheinbahn-planfeststellungsbeschluss-erteilt_aid-150736553"
     }
   ],
   "sources": [
@@ -66,7 +67,7 @@
       "date": "2026"
     },
     {
-      "title": " Planfeststellungsverfahren nach § 18 Allgemeines Eisenbahngesetz (AEG) in Verbindung mit §§ 73 ff Verwaltungsverfahrensgesetz NRW zur Reaktivierung der Niederrheinbahn von Moers-Rheinkamp bis Kamp-Lintfort",
+      "title": "Planfeststellungsverfahren nach § 18 Allgemeines Eisenbahngesetz (AEG) in Verbindung mit §§ 73 ff Verwaltungsverfahrensgesetz NRW zur Reaktivierung der Niederrheinbahn von Moers-Rheinkamp bis Kamp-Lintfort",
       "date": "2026-01-12",
       "url": "https://www.uvp-verbund.de/trefferanzeige?docuuid=5c3d47ac-4a16-4523-a20e-9bf4c6278b89&q=kamp-lintfort"
     }
@@ -74,5 +75,5 @@
   "relatedProjects": [
     "reaktivierung-moers-neukirchen-vluyn"
   ],
-  "lastUpdated": "2026-05-26"
+  "lastUpdated": "2026-06-30"
 }

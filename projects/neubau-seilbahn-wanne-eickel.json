@@ -41,6 +41,12 @@
       "date": "2026-02-23",
       "note": "Transdev und HCR bestätigen gemeinsame Betriebsgesellschaft für Deutschlands erste in den ÖPNV integrierte urbane Seilbahn",
       "sourceUrl": "https://www.transdev.de/de/willkommen/aktuelles/transdev-gruendet-mit-stadt-herne-seilbahngesellschaft-fuer-blumenthal-airline"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-07-15",
+      "note": "Rat der Stadt Herne beschließt die Umsetzung der Seilbahn und bereitet die europaweite Vergabe vor.",
+      "sourceUrl": "https://www.herne.de/Meldungen/News-Detailansicht_295366.html"
     }
   ],
   "sources": [
@@ -71,5 +77,5 @@
     "lat": 51.5285,
     "lng": 7.1768
   },
-  "lastUpdated": "2026-02-23"
+  "lastUpdated": "2026-07-15"
 }

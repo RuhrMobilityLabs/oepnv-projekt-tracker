@@ -22,6 +22,12 @@
 			"date": "2026-03-24",
 			"note": "Die Trasse ist nahezu finalisiert, der Nutzen-Kosten-Index wurde aktualisiert und die nächsten Schritte sind mit Vorplanung bis Ende 2026, funktionaler Ausschreibung bis Ende 2027 und Planfeststellungsverfahren ab Mitte 2028 beschrieben.",
 			"sourceUrl": "https://www.bonn.de/pressemitteilungen/maerz-2026/neuer-sachstand-zur-bonner-seilbahn.php"
+		},
+		{
+			"status": "geplant",
+			"date": "2026-07-03",
+			"note": "Die Stadt Bonn hat den Planungsstand nach vertiefter Planung aktualisiert: Trassenführung und Stationsstandorte wurden optimiert, die Investition auf rund 155 Millionen Euro beziffert und ein Start frühestens 2032 in Aussicht gestellt.",
+			"sourceUrl": "https://www.ksta.de/region/rhein-sieg-bonn/bonn/stadt-informiert-ueber-neuen-planungsstand-zur-bonner-seilbahn-1317372"
 		}
 	],
 	"sources": [
@@ -44,5 +50,5 @@
 			"date": "2025-08-19"
 		}
 	],
-	"lastUpdated": "2026-03-24"
+	"lastUpdated": "2026-07-03"
 }

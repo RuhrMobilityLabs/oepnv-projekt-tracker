@@ -26,15 +26,21 @@
   "description": "Der Brenner-Nordzulauf ist die deutsche Zulaufstrecke zum Brenner Basistunnel (BBT), einem der wichtigsten TEN-V-Alpenkorridore Europas. Das Projekt umfasst den viergleisigen Ausbau bzw. teilweise Neubau der Bahnstrecke im Inntal (Rosenheim–Kiefersfelden) sowie die Anbindung an München. Ziel ist die Kapazitätserhöhung für Güter- und Personenverkehr zwischen Deutschland, Österreich und Italien sowie die Reduktion des Lkw-Transitverkehrs über den Brenner.",
   "statusHistory": [
     {
-        "status": "antrag",
-        "date": "2004-04-30",
-        "note": "Vertragsunterzeichnung zum Bau des Brenner Basistunnels"
+      "status": "antrag",
+      "date": "2004-04-30",
+      "note": "Vertragsunterzeichnung zum Bau des Brenner Basistunnels"
     },
     {
-        "status": "geplant",
-        "date": "2026-01-15",
-        "note": "Bundestagsentscheidung zum Brenner-Nordzulauf wird im Laufe des Jahres 2026 erwartet.",
-        "sourceUrl": "https://www.zeit.de/news/2026-01/15/brenner-nordzulauf-warten-auf-den-bundestag"
+      "status": "geplant",
+      "date": "2026-01-15",
+      "note": "Bundestagsentscheidung zum Brenner-Nordzulauf wird im Laufe des Jahres 2026 erwartet.",
+      "sourceUrl": "https://www.zeit.de/news/2026-01/15/brenner-nordzulauf-warten-auf-den-bundestag"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-07-10",
+      "note": "Das BMV hat die Planungsunterlagen zum Brenner-Nordzulauf an den Bundestag übergeben; nun beginnt die parlamentarische Befassung.",
+      "sourceUrl": "https://www.bmv.de/SharedDocs/DE/Pressemitteilungen/2026/062-schnieder-lange-brenner-nordzulauf.html"
     }
   ],
   "sources": [
@@ -48,5 +54,5 @@
         "date": "2026-01-15"
     }
   ],
-  "lastUpdated": "2026-05-25"
+  "lastUpdated": "2026-07-10"
 }

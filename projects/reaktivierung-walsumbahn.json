@@ -37,6 +37,12 @@
       "date": "2023-03-22",
       "note": "Der VRR beschließt die weiterführende Planung der Betriebsvariante; eine Inbetriebnahme könnte Anfang der 2030er Jahre realisiert werden.",
       "sourceUrl": "https://www.vrr.de/aktuelles/newsroom/walsumbahn-reaktivierung-des-personenverkehrs/"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-07-05",
+      "note": "Für die Planungsphasen 1 und 2 werden neue Fördermittel in Höhe von rund acht Millionen Euro frei; damit ist die Finanzierung der weiteren Planung gesichert. Als Vorzugsvarianten gelten Wesel – Walsum – Oberhausen – Essen (S3) sowie Duisburg-Overbruch – Oberhausen Hbf – Moers/Xanten (RB 31).",
+      "sourceUrl": "https://www.waz.de/lokales/duisburg/article412472548/neue-foerdergelder-in-millionenhoehe-wie-schnell-kommt-nun-die-walsumbahn-zurueck.html"
     }
   ],
   "sources": [
@@ -59,5 +65,5 @@
     "lat": 51.5446,
     "lng": 6.7053
   },
-  "lastUpdated": "2023-03-22"
+  "lastUpdated": "2026-07-05"
 }

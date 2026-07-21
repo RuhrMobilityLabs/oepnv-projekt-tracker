@@ -1,0 +1,151 @@
+{
+  "id": "reaktivierung-flensburg-niebuell",
+  "name": "Reaktivierung Bahnstrecke Flensburg–Niebüll",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Flensburg",
+    "Risum-Lindholm",
+    "Niebüll"
+  ],
+  "states": [
+    "schleswig-holstein"
+  ],
+  "operators": [
+    "Deutsche Bahn"
+  ],
+  "description": "Stillgelegte 36,2 km lange eingleisige Nebenbahn zwischen Flensburg und Niebüll. Letzter Personenzug am 31.05.1981. Gleise vorhanden, im Infrastruktursicherungsvertrag gesichert. Kostenstudie (kcw, 2018): 60 Mio. Euro. Die Reaktivierung ist abhängig vom geplanten Innenstadtbahnhof in Flensburg: Nur mit einem Bahnsteig in der Innenstadt ergibt sich ein positiver Nutzen-Kosten-Indikator (1,2), der für eine Bundesförderung erforderlich ist. Ohne Innenstadtbahnhof ist kein positiver Indikator in Aussicht. Aus diesem Grund wurde die Strecke im Nah.SH-Nahverkehrsplan 2027-2031 gestrichen, da die Kommunalpolitik in Flensburg einen Innenstadtbahnhof jahrelang ablehnte. Im Februar 2025 hat der Flensburger Rat die Bahnentwicklungspläne jedoch beschlossen. Die Strecke könnte perspektivisch als Regionalbahn-Linie Niebüll–Flensburg-ZOB reaktiviert werden.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "1981-05-31",
+      "note": "Letzter planmäßiger Personenzug auf der Bahnstrecke Flensburg-Weiche–Lindholm."
+    },
+    {
+      "status": "abgelehnt",
+      "date": "2026-03-26",
+      "note": "Streichung aus dem Nah.SH-Nahverkehrsplan 2027-2031, da die Reaktivierung politisch vor Ort keine Mehrheiten findet. Der Kreis Nordfriesland lehnt eine Wiederbelebung stets ab und priorisiert die Modernisierung der Marschbahn bis nach Sylt (der Bundestag hat den Ausbau-Plänen im Mai 2026 zugestimmt). Die Trasse bleibt jedoch im Infrastruktursicherungsvertrag gesichert.",
+      "sourceUrl": "https://www.nordschleswiger.dk/deutschland/reaktivierung-der-bahnstrecke-flensburgniebuell-aufs-abstellgleis-geschoben/3415067"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nordschleswiger: Reaktivierung der Bahnstrecke Flensburg–Niebüll aufs Abstellgleis geschoben",
+      "url": "https://www.nordschleswiger.dk/deutschland/reaktivierung-der-bahnstrecke-flensburgniebuell-aufs-abstellgleis-geschoben/3415067",
+      "date": "2026-03-26"
+    },
+    {
+      "title": "PRO BAHN: Niebüll – Flensburg",
+      "url": "https://pro-bahn-sh.de/niebuell-flensburg/"
+    },
+    {
+      "title": "VCD Nord: Reaktivierung Bahnstrecke Niebüll-Flensburg – Fragen und Antworten",
+      "url": "https://nord.vcd.org/fileadmin/user_upload/Nord/Flensburg/Dateien/Bahnreaktivierung-Niebuell-Flensburg-Fragen-Antworten-14-12-2020.pdf",
+      "date": "2021-01-11"
+    },
+    {
+      "title": "Change.org: Petition Reaktivierung der Bahnstrecke Niebüll–Flensburg fördern",
+      "url": "https://www.change.org/p/reaktivierung-der-bahnstrecke-nieb%C3%BCll-flensburg-f%C3%B6rdern"
+    },
+    {
+      "title": "Wikipedia: Bahnstrecke Flensburg Weiche–Lindholm",
+      "url": "https://de.wikipedia.org/wiki/Bahnstrecke_Flensburg_Weiche%E2%80%93Lindholm"
+    },
+    {
+      "title": "Marschbahn nach Sylt: Bundestag stimmt Ausbau-Plänen zu",
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/marschbahn-nach-sylt-verkehrsausschuss-entscheidet-ueber-ausbau,marschbahn-150.html"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Flensburg-ZOB",
+      "coordinates": {
+        "lat": 54.786,
+        "lng": 9.438
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Handewitt",
+      "coordinates": {
+        "lat": 54.773,
+        "lng": 9.325
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Unaften",
+      "coordinates": {
+        "lat": 54.776,
+        "lng": 9.288
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Wallsbüll",
+      "coordinates": {
+        "lat": 54.777,
+        "lng": 9.236
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Schafflund",
+      "coordinates": {
+        "lat": 54.758,
+        "lng": 9.183
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Sprakebüll",
+      "coordinates": {
+        "lat": 54.775,
+        "lng": 9.077
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Achtrup",
+      "coordinates": {
+        "lat": 54.778,
+        "lng": 9.026
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Leck",
+      "coordinates": {
+        "lat": 54.776,
+        "lng": 8.971
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Risum-Lindholm",
+      "coordinates": {
+        "lat": 54.758,
+        "lng": 8.87
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Niebüll",
+      "coordinates": {
+        "lat": 54.789,
+        "lng": 8.835
+      },
+      "status": "existing"
+    }
+  ],
+  "coordinates": {
+    "lat": 54.775,
+    "lng": 9.077
+  },
+  "lastUpdated": "2026-03-26",
+  "relatedProjects": [
+    "reaktivierung-flensburg-innenstadtbahnhof"
+  ]
+}

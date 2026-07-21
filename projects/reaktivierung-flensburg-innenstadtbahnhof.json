@@ -1,0 +1,104 @@
+{
+  "id": "reaktivierung-flensburg-innenstadtbahnhof",
+  "name": "Reaktivierung Streckenabschnitt Flensburg-Wilhelminental – Flensburg-ZOB",
+  "projectType": "reaktivierung",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Flensburg"
+  ],
+  "states": [
+    "schleswig-holstein"
+  ],
+  "operators": [
+    "Deutsche Bahn",
+    "nah.SH"
+  ],
+  "description": "Neuer Innenstadtbahnhof am Flensburger ZOB und Fern-/Regionalbahnhof in Flensburg-Weiche. Reaktivierung der stillgelegten Hafenbahn (Flensburg-Wilhelminental–ZOB). 100 Mio. Euro aus dem Sondervermögen Infrastruktur des Bundes (Feb. 2026). Ziel: Fernverkehr soll in Flensburg-Weiche halten (zeitersparnis ~10 Min. gegenüber Innenstadtschleife), Regionalzüge bis zum ZOB weiterfahren. Geplant: Haltepunkte Nikolaiallee und ZOB, ggf. Tarup, Förde-Park, Campus, Krankenhaus. Der bestehende Flensburger Hauptbahnhof könnte dann für städtebauliche Nutzung freigewendet werden.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2002",
+      "note": "PRO BAHN fordert erstmals die Reaktivierung des Streckenabschnitts Flensburg-Wilhelminental–ZOB."
+    },
+    {
+      "status": "antrag",
+      "date": "2025-02-06",
+      "note": "Flensburger Ratsversammlung beschließt die Bahnentwicklungspläne mit großer Mehrheit.",
+      "sourceUrl": "https://ratsinfo.flensburg.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZSraoy49MNXJHI6zfUDS7_bplCM2h89gTkOX02a4IyAB/Beschlusstext_RV-8-2025_-oeffentlich-_Ratsversammlung_06.02.2025.pdf"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-02-24",
+      "note": "Land Schleswig-Holstein stellt 100 Mio. Euro aus dem Sondervermögen Infrastruktur des Bundes für den Knoten Flensburg bereit (Innenstadtbahnhof, Verbindungskurven, Fernbahnhof Weiche).",
+      "sourceUrl": "https://www.nordschleswiger.dk/deutschland/100-millionen-euro-fuer-neue-bahnhoefe-und-gleise-in-flensburg/3402142"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-07-10",
+      "note": "Projekte im neuen Landesnahverkehrsplan des Landes Schleswig-Holstein verankert.",
+      "sourceUrl": "https://www.cdu-flensburg.de/artikel/100-millionen-euro-fuer-flensburgs-bahninfrastruktur"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NDR: 100 Millionen Euro für neues Bahnkonzept in Flensburg",
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/100-millionen-euro-fuer-neues-bahnkonzept-in-flensburg,bahnhof-flensburg-100.html",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "Nordschleswiger: 100 Millionen Euro für neue Bahnhöfe und Gleise in Flensburg",
+      "url": "https://www.nordschleswiger.dk/deutschland/100-millionen-euro-fuer-neue-bahnhoefe-und-gleise-in-flensburg/3402142",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "CDU Flensburg: 100 Millionen Euro für Flensburgs Bahninfrastruktur",
+      "url": "https://www.cdu-flensburg.de/artikel/100-millionen-euro-fuer-flensburgs-bahninfrastruktur",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "PRO BAHN: Flensburg Innenstadtbahnhof",
+      "url": "https://pro-bahn-sh.de/pro-bahn-flensburg-weiche-flensburg-innenstadt/"
+    },
+    {
+      "title": "Flensburger Ratsbeschluss: Bahnentwicklungspläne (06.02.2025)",
+      "url": "https://ratsinfo.flensburg.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZSraoy49MNXJHI6zfUDS7_bplCM2h89gTkOX02a4IyAB/Beschlusstext_RV-8-2025_-oeffentlich-_Ratsversammlung_06.02.2025.pdf",
+      "date": "2025-02-06"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Flensburg-Weiche",
+      "coordinates": {
+        "lat": 54.758,
+        "lng": 9.398
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Flensburg-Nikolaiallee",
+      "coordinates": {
+        "lat": 54.772,
+        "lng": 9.42
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Flensburg-ZOB",
+      "coordinates": {
+        "lat": 54.786,
+        "lng": 9.438
+      },
+      "status": "planned"
+    }
+  ],
+  "coordinates": {
+    "lat": 54.786,
+    "lng": 9.438
+  },
+  "lastUpdated": "2026-07-10",
+  "relatedProjects": [
+    "reaktivierung-flensburg-niebuell"
+  ]
+}

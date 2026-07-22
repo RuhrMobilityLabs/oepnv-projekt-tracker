@@ -207,7 +207,15 @@ function loadProjects(): Project[] {
   for (const file of files) {
     const filePath = path.join(PROJECTS_DIR, file);
     const content = fs.readFileSync(filePath, "utf-8");
-    const parsed = JSON.parse(content);
+
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(content);
+    } catch (err) {
+      console.error(`Skipping ${file}: invalid JSON`, err);
+      continue;
+    }
+
     const result = projectSchema.safeParse(parsed);
 
     if (!result.success) {

@@ -10,8 +10,14 @@ const __dirname = path.dirname(__filename);
 const PROJECTS_DIR = path.join(__dirname, "../projects");
 const DISCUSSION_CATEGORY_NAME = "Projects";
 
-const owner = process.env.GITHUB_REPOSITORY!.split("/")[0];
-const repo = process.env.GITHUB_REPOSITORY!.split("/")[1];
+const repositorySlug = process.env.GITHUB_REPOSITORY;
+if (!repositorySlug) {
+  throw new Error("GITHUB_REPOSITORY environment variable is not set");
+}
+const [owner, repo] = repositorySlug.split("/");
+if (!owner || !repo) {
+  throw new Error(`Invalid GITHUB_REPOSITORY value: '${repositorySlug}'`);
+}
 const token = process.env.GITHUB_TOKEN!;
 
 const graphqlWithAuth = graphql.defaults({

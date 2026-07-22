@@ -27,8 +27,13 @@ const graphqlWithAuth = graphql.defaults({
 });
 
 function getSiteUrl(): string {
-  const baseUrl = `https://${owner}.github.io/${repo}`;
-  return baseUrl;
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL.endsWith("/")
+      ? process.env.NEXT_PUBLIC_SITE_URL.slice(0, -1)
+      : process.env.NEXT_PUBLIC_SITE_URL;
+  }
+
+  return `https://${owner}.github.io/${repo}`;
 }
 
 function buildDiscussionBody(project: Project): string {

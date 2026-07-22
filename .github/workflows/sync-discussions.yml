@@ -1,0 +1,34 @@
+name: Sync Project Discussions
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'projects/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  discussions: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync discussions
+        run: npx tsx scripts/syncDiscussions.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -176,6 +176,7 @@ async function getExistingDiscussionProjectIds(): Promise<Set<string>> {
 }
 
 async function createDiscussion(
+  repositoryId: string,
   categoryId: string,
   project: Project,
 ): Promise<void> {
@@ -184,8 +185,9 @@ async function createDiscussion(
 
   await graphqlWithAuth(
     `
-      mutation($categoryId:ID!, $title:String!, $body:String!) {
+      mutation($repositoryId:ID!, $categoryId:ID!, $title:String!, $body:String!) {
         createDiscussion(input:{
+          repositoryId:$repositoryId
           categoryId:$categoryId
           title:$title
           body:$body
@@ -196,7 +198,7 @@ async function createDiscussion(
         }
       }
     `,
-    { categoryId, title, body },
+    { repositoryId, categoryId, title, body },
   );
 
   console.log(`Created discussion for ${project.id}`);
@@ -267,7 +269,7 @@ async function main() {
       continue;
     }
 
-    await createDiscussion(category.id, project);
+    await createDiscussion(repository.id, category.id, project);
     created++;
   }
 

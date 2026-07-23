@@ -1,0 +1,116 @@
+{
+  "id": "neubau-seilbahn-heilbronn",
+  "name": "Neubau Seilbahn Heilbronn – Hauptbahnhof / IPAI Campus",
+  "projectType": "neubau",
+  "transportTypes": [
+    "seilbahn"
+  ],
+  "cities": [
+    "Heilbronn"
+  ],
+  "states": [
+    "baden-württemberg"
+  ],
+  "operators": [
+    "Stadt Heilbronn"
+  ],
+  "description": "Geplante 4,7 km lange urbane Seilbahn zwischen dem 250 m vom Hauptbahnhof entfernten Experimenta-Parkhaus und dem IPAI Campus. Die Strecke mit fünf Stationen und einer Fahrzeit von 14 Minuten soll den entstehenden KI-Campus an das Bahnnetz anbinden. Die Kapazität beträgt 1.500 Personen pro Stunde und Richtung (77 Gondeln à 10 Personen). Als Alternativen wurden u.a. eine Stadtbahnverlängerung, eine Fähre und eine Passagierdrohne geprüft, die Entscheidung fiel auf eine Kombination aus Seilbahn und Schnellbus. Geplante Inbetriebnahme ab 2033, vorbehaltlich des Planfeststellungsverfahrens.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2024",
+      "note": "Untersuchung von mehr als 15 Verkehrsträgern durch die städtischen Fachbehörden, darunter Schwebebahn, Stadtbahn, Fähre und Passagierdrohne"
+    },
+    {
+      "status": "geplant",
+      "date": "2025-04-03",
+      "note": "Gemeinderat beschließt nach positiver Machbarkeitsstudie die konkrete Vorplanung der Seilbahn",
+      "sourceUrl": "https://www.heilbronn.de/umwelt-mobilitaet/mobilitaet/seilbahn.html"
+    },
+    {
+      "status": "geplant",
+      "date": "2026-07-04",
+      "note": "Eröffnungstermin 2033 erstmals öffentlich genannt; Ausschreibung der Arbeiten voraussichtlich 2029",
+      "sourceUrl": "https://www.stimme.de/heilbronn/stadt-heilbronn/seilbahn-stadt-nennt-moeglichen-eroeffnungstermin-ipai-verbindung-zukunft-plaene-projekt-art-5190605"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Stadt Heilbronn: Seilbahn",
+      "url": "https://www.heilbronn.de/umwelt-mobilitaet/mobilitaet/seilbahn.html"
+    },
+    {
+      "title": "Stadt Heilbronn: Verkehr und Standort IPAI",
+      "url": "https://www.heilbronn.de/wirtschaft/digitalisierung/innovation-park-artificial-intelligence-ipai/ipai-und-verkehr.html"
+    },
+    {
+      "title": "Stadt Heilbronn: Startschuss für urbane Seilbahn in Heilbronn",
+      "url": "https://www.heilbronn.de/kommunikation/pressemitteilungen/details/artikel/startschuss-fuer-urbane-seilbahn-in-heilbronn.html",
+      "date": "2025-05-12"
+    },
+    {
+      "title": "STIMME.de: Seilbahn für Heilbronn: Stadt nennt erstmals möglichen Eröffnungstermin",
+      "url": "https://www.stimme.de/heilbronn/stadt-heilbronn/seilbahn-stadt-nennt-moeglichen-eroeffnungstermin-ipai-verbindung-zukunft-plaene-projekt-art-5190605",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "echo24: Seilbahn in Heilbronn? Bürgermeister nennt möglichen Termin für Inbetriebnahme",
+      "url": "https://www.echo24.de/heilbronn/seilbahn-in-heilbronn-hauptbahnhof-ipai-stadt-nennt-erstmals-termin-fuer-moegliche-inbetriebnahme-94387360.html",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "Wikipedia: Innovationspark Künstliche Intelligenz",
+      "url": "https://de.wikipedia.org/wiki/Innovationspark_K%C3%BCnstliche_Intelligenz"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Experimenta-Parkhaus",
+      "coordinates": {
+        "lat": 49.143,
+        "lng": 9.212
+      },
+      "status": "existing"
+    },
+    {
+      "name": "Bildungscampus West",
+      "coordinates": {
+        "lat": 49.15,
+        "lng": 9.213
+      },
+      "status": "planned"
+    },
+    {
+      "name": "Zukunftspark Wohlgelegen",
+      "coordinates": {
+        "lat": 49.157,
+        "lng": 9.211
+      },
+      "status": "planned"
+    },
+    {
+      "name": "P&R-Parkplatz Friesland/Campina-Areal",
+      "coordinates": {
+        "lat": 49.176,
+        "lng": 9.202
+      },
+      "status": "planned"
+    },
+    {
+      "name": "IPAI Campus",
+      "coordinates": {
+        "lat": 49.18,
+        "lng": 9.191
+      },
+      "status": "planned"
+    }
+  ],
+  "coordinates": {
+    "lat": 49.18,
+    "lng": 9.191
+  },
+  "relatedProjects": [
+    "neubau-haltepunkt-bad-friedrichshall-sued"
+  ],
+  "lastUpdated": "2026-07-23"
+}

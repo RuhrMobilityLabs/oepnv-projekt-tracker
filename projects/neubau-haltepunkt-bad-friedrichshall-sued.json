@@ -1,0 +1,89 @@
+{
+  "id": "neubau-haltepunkt-bad-friedrichshall-sued",
+  "name": "Neubau Haltepunkt Bad Friedrichshall Süd",
+  "projectType": "neubau",
+  "transportTypes": [
+    "eisenbahn"
+  ],
+  "cities": [
+    "Bad Friedrichshall"
+  ],
+  "states": [
+    "baden-württemberg"
+  ],
+  "operators": [
+    "Deutsche Bahn AG",
+    "Stadt Bad Friedrichshall",
+    "Schwarz Gruppe"
+  ],
+  "description": "Neubau eines Stadtbahnhaltepunkts an der Strecke 4900 (Bietigheim-Osterburken) zur Anbindung des entstehenden Schwarz-Projekt-Campus im Gewerbegebiet \"Obere Fundel\" mit rund 3.500 Arbeitsplätzen. Die Station umfasst zwei Außenbahnsteige (je 140 m Länge, 55 cm Höhe) und wird über einen Geh- und Radwegsteg über die B 27 barrierefrei mit dem Campus verbunden. Die Investition beträgt rund 10 Millionen Euro.",
+  "statusHistory": [
+    {
+      "status": "idee",
+      "date": "2023",
+      "note": "Planung des Haltepunkts im Rahmen des Mobilitätspakts Heilbronn-Neckarsulm"
+    },
+    {
+      "status": "antrag",
+      "date": "2023-08-28",
+      "note": "Antrag auf Plangenehmigung beim Eisenbahn-Bundesamt",
+      "sourceUrl": "https://www.eba.bund.de/SharedDocs/Downloads/DE/PF/Beschluesse/Baden_W/2024/1002_PG_Neubau_Haltepunkt_Bad_Friedrichshall_Sued_Strecke_4900.pdf?__blob=publicationFile&v=2"
+    },
+    {
+      "status": "geplant",
+      "date": "2024-10-02",
+      "note": "Plangenehmigung durch das Eisenbahn-Bundesamt erteilt",
+      "sourceUrl": "https://www.eba.bund.de/SharedDocs/Downloads/DE/PF/Beschluesse/Baden_W/2024/1002_PG_Neubau_Haltepunkt_Bad_Friedrichshall_Sued_Strecke_4900.pdf?__blob=publicationFile&v=2"
+    },
+    {
+      "status": "im_bau",
+      "date": "2025-03-18",
+      "note": "Spatenstich mit Verkehrsminister Winfried Hermann; Beginn der Bauarbeiten",
+      "sourceUrl": "https://rps.baden-wuerttemberg.de/seiten/artikel-aktuellemeldung/neue-verkehrsstation-am-schwarz-projekt-campus-modern-barrierefrei-und-zukunftsorientiert/"
+    },
+    {
+      "status": "im_bau",
+      "date": "2026-07-10",
+      "note": "DB InfraGO meldet Verzögerung: Inbetriebnahme erst 2027 statt 2026 wegen fehlender Fachkräfte und ausstehender Signalarbeiten",
+      "sourceUrl": "https://www.stimme.de/heilbronn/landkreis-heilbronn/schwarz-campus-bad-friedrichshall-art-5192730"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mobilitätspakt Heilbronn-Neckarsulm: Maßnahmen",
+      "url": "https://www.mobilitaetspakt-h-n.de/massnahmen.html"
+    },
+    {
+      "title": "Regierungspräsidium Stuttgart: Neue Verkehrsstation am Schwarz-Projekt-Campus",
+      "url": "https://rps.baden-wuerttemberg.de/seiten/artikel-aktuellemeldung/neue-verkehrsstation-am-schwarz-projekt-campus-modern-barrierefrei-und-zukunftsorientiert/",
+      "date": "2025-03-18"
+    },
+    {
+      "title": "Deutsche Bahn: Haltepunkt Bad Friedrichshall Süd geht 2026 nicht in Betrieb",
+      "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-stuttgart-de/aktuell/presseinformationen/Haltepunkt-Bad-Friedrichshall-Sued-geht-2026-nicht-in-Betrieb-13964306"
+    },
+    {
+      "title": "STIMME.de: Stadtbahnhalt am Schwarz-Campus kommt später",
+      "url": "https://www.stimme.de/heilbronn/landkreis-heilbronn/schwarz-campus-bad-friedrichshall-art-5192730",
+      "date": "2026-07-10"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Bad Friedrichshall Süd",
+      "coordinates": {
+        "lat": 49.214,
+        "lng": 9.218
+      },
+      "status": "planned"
+    }
+  ],
+  "coordinates": {
+    "lat": 49.214,
+    "lng": 9.218
+  },
+  "relatedProjects": [
+    "neubau-seilbahn-heilbronn"
+  ],
+  "lastUpdated": "2026-07-23"
+}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ArchivedBanner from "@/components/ArchivedBanner";
 import TitleBar from "@/components/TitleBar";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -67,6 +68,7 @@ export default function RootLayout({
   return (
     <html lang="de" suppressHydrationWarning>
       <body className="min-h-screen antialiased flex flex-col">
+        <ArchivedBanner />
         <TitleBar />
         <main className="flex-1 flex flex-col min-h-0">
           {children}
